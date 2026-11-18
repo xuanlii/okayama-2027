@@ -1,0 +1,2478 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2027 年 2 月岡山五天四夜三代同遊自駕行程規劃｜手機・電腦雙用導覽</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Google+Sans+Code:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Responsive Travel & Cultural Guide · Cool Mineral Mist #F3F5F4 + Okayama Indigo #1E3A5F + Persimmon #B34722 */
+
+:root {
+  --paper: #F3F5F4;
+  --surface: #FFFFFF;
+  --surface-soft: #EBF0F2;
+  --ink: #11161A;
+  --ink2: #2C353D;
+  --mute: #4A5560;
+  --hair: #D5DCE0;
+  --accent: #B34722;
+  --accent-text: #8A2E0F;
+  --accent-2: #1E3A5F;
+  --accent-2-soft: rgba(30, 58, 95, 0.08);
+  --accent-soft: rgba(179, 71, 34, 0.09);
+  --ok: #1B5E3A;
+  --ok-soft: rgba(27, 94, 58, 0.09);
+  --radius-lg: 40px;
+  --radius-md: 24px;
+  --radius-sm: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* Sticky Top Navigation (Desktop + Mobile Scrollable Pills) */
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(243, 245, 244, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--hair);
+}
+
+.top-nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px clamp(16px, 5vw, 64px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.nav-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.nav-brand {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-weight: 600;
+  font-size: 15.5px;
+  color: var(--ink);
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.nav-pills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 2px 0;
+}
+
+.nav-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--hair);
+  background: var(--surface);
+  color: var(--ink2);
+  font-size: 13.5px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.nav-pill:hover,
+.nav-pill.active {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #FFFFFF;
+}
+
+.nav-unlock-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 36px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.nav-unlock-btn:hover {
+  background: var(--accent-text);
+  border-color: var(--accent-text);
+}
+
+.nav-unlock-btn.unlocked {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+
+.page {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px clamp(18px, 6vw, 64px) 96px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0 24px;
+}
+
+.span-12 { grid-column: 1 / -1; }
+.span-10 { grid-column: 1 / span 10; }
+.span-8  { grid-column: 1 / span 8; }
+.col-1-4 { grid-column: 1 / span 4; }
+.col-5-12 { grid-column: 5 / -1; }
+
+.measure {
+  max-width: 68ch;
+}
+
+.eyebrow {
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--accent-text);
+  margin: 0 0 12px;
+}
+
+h1 {
+  font-family: "Fraunces", "Noto Serif TC", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(32px, 4.8vw, 64px);
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  margin: 0 0 20px;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.deck {
+  font-size: clamp(16.5px, 1.8vw, 19px);
+  line-height: 1.66;
+  color: var(--ink2);
+  margin: 0 0 36px;
+  max-width: 64ch;
+}
+
+h2 {
+  font-family: "Fraunces", "Noto Serif TC", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(25px, 3vw, 38px);
+  line-height: 1.24;
+  letter-spacing: -0.015em;
+  margin: 0 0 18px;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans", "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.38;
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+p {
+  margin: 0 0 16px;
+  color: var(--ink2);
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+.sec {
+  margin-top: 84px;
+  padding-top: 32px;
+  border-top: 1px solid var(--hair);
+  scroll-margin-top: 76px;
+}
+
+.sec-tight {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--hair);
+  scroll-margin-top: 76px;
+}
+
+/* Privacy Vault Unlock Bar */
+.vault-bar {
+  margin: 22px 0 24px;
+  padding: 18px 22px;
+  border-radius: 20px;
+  background: var(--surface);
+  border: 1.5px solid var(--hair);
+  border-left: 4px solid var(--accent);
+  scroll-margin-top: 88px;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.vault-bar.unlocked {
+  border-left-color: var(--ok);
+  background: #F6FAF7;
+}
+
+.vault-bar.attention {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(179, 71, 34, 0.16);
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+.vault-bar.shake {
+  animation: shake 0.36s ease;
+}
+
+.vault-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 20px;
+}
+
+.vault-info {
+  flex: 1 1 280px;
+}
+
+.vault-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+.vault-sub {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--mute);
+}
+
+.vault-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.pin-input {
+  min-height: 44px;
+  width: 170px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--hair);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Google Sans Code", monospace;
+  font-size: 16px;
+  letter-spacing: 0.14em;
+  outline: none;
+  transition: border-color 0.16s ease, background 0.16s ease;
+}
+
+.pin-input:focus {
+  border-color: var(--accent-2);
+  background: var(--surface);
+}
+
+.pin-input::placeholder {
+  letter-spacing: 0;
+  font-family: "Plus Jakarta Sans", "Noto Sans TC", sans-serif;
+  font-size: 14px;
+  color: var(--mute);
+}
+
+.vault-submit-btn {
+  min-height: 44px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: #FFFFFF;
+  font-size: 14.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.16s ease;
+}
+
+.vault-submit-btn:hover {
+  background: var(--accent-text);
+}
+
+.vault-relock-btn {
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--ok);
+  background: var(--surface);
+  color: var(--ok);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.vault-relock-btn:hover {
+  background: var(--ok);
+  color: #FFFFFF;
+}
+
+.pin-error {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #B3261E;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+/* Masked inline badge styling */
+.masked-chip,
+.secret-link-slot {
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.masked-chip.is-locked,
+.secret-link-slot.is-locked {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 8px;
+  background: var(--surface-soft);
+  border: 1px dashed #9AA7B2;
+  color: var(--mute);
+  font-size: 0.94em;
+  cursor: pointer;
+}
+
+.masked-chip.is-locked:hover,
+.secret-link-slot.is-locked:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+/* Answer-first summary strip */
+.verdict-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px 24px;
+  padding: 24px 0 32px;
+  border-top: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 40px;
+}
+
+.verdict-item .num {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 600;
+  line-height: 1.18;
+  color: var(--accent-text);
+  margin-bottom: 6px;
+}
+
+.verdict-item .lbl {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--mute);
+}
+
+/* Figures & Responsive Images */
+figure {
+  margin: 0;
+}
+
+figure.hero-fig {
+  margin: 0 0 20px;
+}
+
+figure.body-fig {
+  margin: 28px 0 32px;
+}
+
+.img-wrap {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  width: 100%;
+  background: var(--surface-soft);
+  position: relative;
+  cursor: zoom-in;
+}
+
+.img-wrap img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  transition: transform 0.35s ease;
+}
+
+.img-wrap:hover img {
+  transform: scale(1.015);
+}
+
+.fig-title {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-weight: 600;
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+
+figcaption {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--mute);
+  margin-top: 10px;
+}
+
+/* Desktop Table & Mobile Cards for Bookings */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 22px 0 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+thead th {
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--mute);
+  padding: 12px 14px 12px 0;
+  border-bottom: 1.5px solid var(--ink);
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 16px 14px 16px 0;
+  border-bottom: 1px solid var(--hair);
+  vertical-align: top;
+  color: var(--ink2);
+}
+
+tbody td.nowrap, thead th.nowrap {
+  white-space: nowrap;
+}
+
+tbody td.strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.mono {
+  font-family: "Google Sans Code", monospace;
+  font-size: 13.5px;
+  color: var(--ink);
+}
+
+.booking-cards {
+  display: none;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.booking-card {
+  background: var(--surface);
+  border: 1px solid var(--hair);
+  border-radius: 20px;
+  padding: 18px;
+}
+
+.booking-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--hair);
+}
+
+.booking-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--ink);
+}
+
+.booking-card-price {
+  font-family: "Google Sans Code", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-text);
+  white-space: nowrap;
+}
+
+.booking-card-row {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink2);
+  margin-bottom: 6px;
+}
+
+.booking-card-row:last-child {
+  margin-bottom: 0;
+}
+
+/* Copy Chips & Action Pills */
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  margin-right: 6px;
+  padding: 4px 10px;
+  min-height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--hair);
+  background: var(--paper);
+  color: var(--accent-2);
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.copy-btn:hover {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #FFFFFF;
+}
+
+.copy-btn.locked-copy {
+  background: var(--surface-soft);
+  border-style: dashed;
+  color: var(--mute);
+}
+
+.copy-btn.locked-copy:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.copy-btn.copied {
+  background: var(--ok);
+  border-color: var(--ok);
+  color: #FFFFFF;
+}
+
+/* Day Filter Bar */
+.day-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  margin: 24px 0 8px;
+  padding-bottom: 4px;
+}
+
+.day-filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.day-tab {
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--hair);
+  background: var(--surface);
+  color: var(--ink2);
+  font-family: "Google Sans Code", "Noto Sans TC", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.16s ease;
+}
+
+.day-tab:hover {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.day-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FFFFFF;
+}
+
+/* Day-by-day open timeline rows */
+.day-block {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 20px 28px;
+  padding: 36px 0;
+  border-top: 1px solid var(--hair);
+  scroll-margin-top: 76px;
+}
+
+.day-meta {
+  grid-column: 1 / span 4;
+}
+
+.day-date {
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent-text);
+  margin-bottom: 6px;
+}
+
+.day-title {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-size: clamp(22px, 2.2vw, 26px);
+  font-weight: 600;
+  line-height: 1.32;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.day-note {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--mute);
+  margin: 0 0 12px;
+}
+
+.day-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-2-soft);
+  color: var(--accent-2);
+}
+
+.badge.warm {
+  background: var(--accent-soft);
+  color: var(--accent-text);
+}
+
+.day-schedule {
+  grid-column: 5 / -1;
+}
+
+.slot-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slot-list li {
+  padding: 0 0 22px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--hair);
+}
+
+.slot-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.slot-time {
+  font-family: "Google Sans Code", monospace;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent-2);
+  display: inline-block;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.slot-head {
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 17px;
+}
+
+.slot-desc {
+  margin: 8px 0 0;
+  color: var(--ink2);
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+/* Inline Mini Spot History Callout inside Schedule */
+.spot-history-inline {
+  margin-top: 14px;
+  background: var(--surface);
+  border: 1px solid var(--hair);
+  border-left: 3.5px solid var(--accent);
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 14px 18px;
+  align-items: start;
+}
+
+.spot-thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: var(--surface-soft);
+}
+
+.spot-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.spot-history-label {
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent-text);
+  margin-bottom: 4px;
+}
+
+.spot-history-text {
+  font-size: 14.5px;
+  line-height: 1.66;
+  color: var(--ink2);
+  margin: 0;
+}
+
+.spot-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--mute);
+}
+
+/* Dedicated Attraction History & Photo Atlas */
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 28px;
+}
+
+.heritage-card {
+  background: var(--surface);
+  border: 1px solid var(--hair);
+  border-radius: 28px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.heritage-card-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--surface-soft);
+  cursor: zoom-in;
+}
+
+.heritage-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.heritage-card:hover .heritage-card-media img {
+  transform: scale(1.03);
+}
+
+.heritage-day-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(17, 22, 26, 0.78);
+  color: #FFFFFF;
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
+.heritage-card-body {
+  padding: 22px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.heritage-era {
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 12.5px;
+  color: var(--accent-text);
+  margin-bottom: 6px;
+}
+
+.heritage-title {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.heritage-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink2);
+  margin: 0 0 14px;
+}
+
+.heritage-access {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--hair);
+  font-size: 13.8px;
+  line-height: 1.6;
+  color: var(--mute);
+}
+
+.heritage-access strong {
+  color: var(--accent-2);
+}
+
+/* Pull quote */
+.pull-quote {
+  font-family: "Fraunces", "Noto Serif TC", serif;
+  font-style: normal;
+  font-size: clamp(22px, 2.6vw, 34px);
+  line-height: 1.42;
+  color: var(--ink);
+  padding: 32px 0;
+  border-top: 2px solid var(--accent);
+  border-bottom: 1px solid var(--hair);
+  margin: 56px 0;
+  max-width: 44ch;
+}
+
+/* Checklist Columns */
+.checklist-progress {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--hair);
+  font-family: "Google Sans Code", "Noto Sans TC", monospace;
+  font-size: 13px;
+  color: var(--accent-2);
+  margin-bottom: 10px;
+}
+
+.cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 20px;
+}
+
+.col-item {
+  border-top: 1px solid var(--hair);
+  padding-top: 18px;
+}
+
+.col-item h3 {
+  font-size: 17.5px;
+  margin-bottom: 12px;
+}
+
+.check-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.check-list li {
+  margin-bottom: 12px;
+}
+
+.check-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink2);
+}
+
+.check-label input[type="checkbox"] {
+  margin-top: 4px;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.check-label.done span {
+  text-decoration: line-through;
+  color: var(--mute);
+}
+
+/* Sources list */
+.sources-list {
+  padding-left: 22px;
+  margin: 16px 0 0;
+  color: var(--ink2);
+  font-size: 14.5px;
+  line-height: 1.72;
+  word-break: break-word;
+}
+
+.sources-list li {
+  margin-bottom: 8px;
+}
+
+/* Lightbox Modal */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(17, 22, 26, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox-inner {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.lightbox-inner img {
+  max-width: 100%;
+  max-height: 78vh;
+  border-radius: 18px;
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  color: #F3F5F4;
+  font-size: 14.5px;
+  line-height: 1.55;
+  text-align: center;
+  max-width: 65ch;
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(17, 22, 26, 0.7);
+  color: #FFFFFF;
+  font-size: 22px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+/* Floating Back-to-Top Button */
+.back-top {
+  position: fixed;
+  right: 18px;
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  z-index: 45;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(17, 22, 26, 0.12);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.back-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Tablet & Mobile Responsive Rules */
+@media (max-width: 960px) {
+  .col-1-4, .col-5-12, .day-meta, .day-schedule, .span-10, .span-8 {
+    grid-column: 1 / -1;
+  }
+  .verdict-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .heritage-grid {
+    grid-template-columns: 1fr;
+  }
+  .cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-nav-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+  .nav-brand {
+    font-size: 14.5px;
+  }
+  .page {
+    padding: 28px 16px 84px;
+  }
+  .sec {
+    margin-top: 56px;
+    padding-top: 24px;
+  }
+  .vault-bar {
+    padding: 16px;
+  }
+  .pin-input {
+    flex: 1 1 130px;
+  }
+  .img-wrap,
+  .img-wrap img {
+    border-radius: var(--radius-md);
+  }
+  .img-wrap img {
+    aspect-ratio: 4 / 3;
+  }
+  .table-wrap {
+    display: none;
+  }
+  .booking-cards {
+    display: grid;
+  }
+  .spot-history-inline {
+    grid-template-columns: 1fr;
+    padding: 12px 14px;
+  }
+  .spot-thumb {
+    aspect-ratio: 16 / 9;
+  }
+  .heritage-card {
+    border-radius: 22px;
+  }
+  .heritage-card-body {
+    padding: 18px 18px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .verdict-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .verdict-item .num {
+    font-size: 21px;
+  }
+  .verdict-item .lbl {
+    font-size: 13px;
+  }
+}
+
+@media print {
+  .top-nav, .day-filter-bar, .copy-btn, .back-top, .lightbox, .vault-bar {
+    display: none !important;
+  }
+  .day-block.is-hidden {
+    display: grid !important;
+  }
+  body {
+    background: #FFFFFF;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav class="top-nav" aria-label="行程頁面快速導覽">
+  <div class="top-nav-inner">
+    <div class="nav-top-row">
+      <a href="#top" class="nav-brand">2027.02 岡山三代同遊</a>
+      <button type="button" id="navUnlockBtn" class="nav-unlock-btn">🔒 解鎖隱私</button>
+    </div>
+    <div class="nav-pills">
+      <a class="nav-pill" href="#bookings">預訂總覽</a>
+      <a class="nav-pill" href="#pace">車程圖表</a>
+      <a class="nav-pill" href="#itinerary">逐日行程</a>
+      <a class="nav-pill" href="#heritage">景點歷史圖鑑</a>
+      <a class="nav-pill" href="#checklist">行前清單</a>
+      <a class="nav-pill" href="#sources">來源</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top" class="page">
+  <header class="grid">
+    <div class="span-10">
+      <p class="eyebrow">OKAYAMA FAMILY ROAD TRIP · 2027/02/10 – 02/14 · 4 大 1 小（含兩位 60 歲長輩 &amp; 10 個月嬰兒）</p>
+      <h1>2027 年 2 月岡山五天四夜：全程平地與室內暖活的三代同遊自駕指南</h1>
+      <p class="deck">已整合台灣虎航機票、岡山市區獨棟 Airbnb 與 TOYOTA 雪胎休旅車確認資訊，並收錄全行程 11 座核心景點與備案地標的實景攝影與歷史典故。個人訂位代號、民宿門牌、房東電話與確認信連結均已加密隱藏，輸入家族密碼即可開啟檢視。</p>
+    </div>
+
+    <div class="span-12 verdict-strip">
+      <div class="verdict-item">
+        <div class="num">2/10 – 2/14</div>
+        <div class="lbl">五天四夜早去午回<br>台灣虎航桃園直飛岡山</div>
+      </div>
+      <div class="verdict-item">
+        <div class="num">4 晚連住</div>
+        <div class="lbl">岡山市北區西古松 3BR 獨棟<br>附 2 個免費停車位免搬行李</div>
+      </div>
+      <div class="verdict-item">
+        <div class="num">VOXY Hybrid</div>
+        <div class="lbl">W2 等級休旅車配雪地輪胎<br>含 1 座嬰兒安全座椅</div>
+      </div>
+      <div class="verdict-item">
+        <div class="num">1°C – 10°C</div>
+        <div class="lbl">2 月晴天之國乾冷氣候<br>主軸溫室採果與大型商場</div>
+      </div>
+    </div>
+
+    <div class="span-12">
+      <figure class="hero-fig">
+        <p class="fig-title">倉敷美觀地區保有江戶天領時代白壁土藏與垂柳運河，全程平坦石板路推車輕鬆同行</p>
+        <div class="img-wrap" data-lightbox data-caption="倉敷美觀地區運河與白壁建築實景（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/19-18-01-37-1001917491399653a9fe66550faa7442c7a7.webp?w=656" alt="倉敷美觀地區運河與白壁建築實景" referrerpolicy="no-referrer">
+        </div>
+        <figcaption>實景照片（點擊可放大檢視）：倉敷美觀地區運河與遊船（來源：<a href="https://www.okayama-japan.jp/en/spot/10736" target="_blank" rel="noopener noreferrer">岡山縣官方觀光指南</a>）。</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <!-- 預訂資訊 -->
+  <section id="bookings" class="sec grid">
+    <div class="span-12">
+      <h2>已確認預訂：機票、獨棟民宿與雪胎休旅車全部到位</h2>
+
+      <!-- 隱私加密解鎖面板 -->
+      <div id="privacyVault" class="vault-bar">
+        <div id="vaultLockedView" class="vault-row">
+          <div class="vault-info">
+            <div class="vault-title">🔒 個人訂位代號、門牌地址、電話與確認信連結已加密隱藏</div>
+            <div class="vault-sub">為保護三代同行家人隱私，公開網頁預設遮罩敏感資訊。請輸入密碼解鎖完整訂位資料與地圖／信件連結。</div>
+          </div>
+          <form id="pinForm" class="vault-form" autocomplete="off">
+            <input id="pinInput" class="pin-input" type="password" inputmode="numeric" maxlength="12" placeholder="輸入解鎖密碼" aria-label="隱私解鎖密碼">
+            <button type="submit" id="pinSubmitBtn" class="vault-submit-btn">解鎖檢視</button>
+            <span id="pinError" class="pin-error is-hidden" role="alert"></span>
+          </form>
+        </div>
+        <div id="vaultUnlockedView" class="vault-row is-hidden">
+          <div class="vault-info">
+            <div class="vault-title">🔓 已解鎖完整預訂明細與個人聯絡資訊</div>
+            <div class="vault-sub">資料僅於您目前開啟的瀏覽分頁解密呈現；關閉分頁後自動恢復隱藏，或可隨時手動上鎖。</div>
+          </div>
+          <button type="button" id="relockBtn" class="vault-relock-btn">立即重新上鎖</button>
+        </div>
+      </div>
+
+      <p class="measure">以下資訊整理自 2026 年 11 月 17 日收到的官方確認信。回程已加購優先行李與機上餐點（<span class="masked-chip is-locked" data-secret-text="tiger_veg_note" data-masked-text="其中 1 位同行家人選購「蛋奶素」餐點">其中 1 位同行家人選購「蛋奶素」餐點</span>），解鎖後即可一鍵複製訂位代號、民宿日文地址與房東電話。</p>
+
+      <!-- 電腦版寬表格 -->
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>預訂代號／來源</th>
+              <th>日期與時間</th>
+              <th>核心內容與規格</th>
+              <th class="nowrap">費用總計</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong">去程航班</td>
+              <td>
+                <span class="secret-link-slot is-locked" data-secret-href="tiger_url" data-secret-text="tiger_label" data-masked-text="🔒 虎航 ••••••">🔒 虎航 ••••••</span><br>
+                <button type="button" class="copy-btn locked-copy" data-secret-copy="tiger_code" data-unlocked-label="複製代號" data-locked-label="🔒 解鎖複製代號">🔒 解鎖複製代號</button>
+              </td>
+              <td class="mono">2027/02/10 11:10 → 14:35</td>
+              <td>IT214 桃園 T1 → 岡山 OKJ｜<span class="masked-chip is-locked" data-secret-text="tiger_seat_out" data-masked-text="已選位（解鎖檢視座位）">已選位（解鎖檢視座位）</span>｜託運 30kg×1 + 20kg×3</td>
+              <td class="mono" rowspan="2"><span class="masked-chip is-locked" data-secret-text="tiger_price" data-masked-text="TWD ••,•••">TWD ••,•••</span></td>
+            </tr>
+            <tr>
+              <td class="strong">回程航班</td>
+              <td><span class="secret-link-slot is-locked" data-secret-href="tiger_url" data-secret-text="tiger_label" data-masked-text="🔒 虎航 ••••••">🔒 虎航 ••••••</span></td>
+              <td class="mono">2027/02/14 15:25 → 17:30</td>
+              <td>IT215 岡山 OKJ → 桃園 T1｜<span class="masked-chip is-locked" data-secret-text="tiger_seat_in" data-masked-text="已選位（解鎖檢視座位）">已選位（解鎖檢視座位）</span>｜託運 40kg×1 + 30kg×3｜含優先行李與機上餐點</td>
+            </tr>
+            <tr>
+              <td class="strong">住宿</td>
+              <td>
+                <span class="secret-link-slot is-locked" data-secret-href="airbnb_url" data-secret-text="airbnb_label" data-masked-text="🔒 Airbnb ••••••••••">🔒 Airbnb ••••••••••</span><br>
+                <button type="button" class="copy-btn locked-copy" data-secret-copy="airbnb_code" data-unlocked-label="複製代號" data-locked-label="🔒 解鎖複製代號">🔒 解鎖複製代號</button>
+              </td>
+              <td class="mono">02/10 16:00 入住<br>02/14 10:00 退房</td>
+              <td>
+                <span class="secret-link-slot is-locked" data-secret-href="airbnb_map_url" data-secret-text="airbnb_name" data-masked-text="岡山市北區西古松獨棟民宿">岡山市北區西古松獨棟民宿</span>（<span class="masked-chip is-locked" data-secret-text="airbnb_addr_zh" data-masked-text="解鎖顯示門牌與地圖">解鎖顯示門牌與地圖</span>）｜整套 3 房獨棟｜免費停車位 2 台｜房東 <span class="masked-chip is-locked" data-secret-text="host_full" data-masked-text="聯絡人（+81 80-••••-••••）">聯絡人（+81 80-••••-••••）</span><br>
+                <button type="button" class="copy-btn locked-copy" data-secret-copy="airbnb_addr_jp" data-unlocked-label="複製日文地址" data-locked-label="🔒 解鎖複製地址">🔒 解鎖複製地址</button>
+                <button type="button" class="copy-btn locked-copy" data-secret-copy="host_phone_copy" data-unlocked-label="複製房東電話" data-locked-label="🔒 解鎖複製電話">🔒 解鎖複製電話</button>
+              </td>
+              <td class="mono"><span class="masked-chip is-locked" data-secret-text="airbnb_price" data-masked-text="TWD ••,•••">TWD ••,•••</span></td>
+            </tr>
+            <tr>
+              <td class="strong">租車</td>
+              <td>
+                <span class="secret-link-slot is-locked" data-secret-href="toyota_url" data-secret-text="toyota_label" data-masked-text="🔒 TOYOTA •••••••••••">🔒 TOYOTA •••••••••••</span><br>
+                <button type="button" class="copy-btn locked-copy" data-secret-copy="toyota_code" data-unlocked-label="複製單號" data-locked-label="🔒 解鎖複製單號">🔒 解鎖複製單號</button>
+              </td>
+              <td class="mono">02/10 15:00 取車<br>02/14 13:00 還車</td>
+              <td>岡山機場店取還（岡山市北區日応寺 1565）｜W2 等級 VOXY Hybrid（禁煙・AT・雪地輪胎・完整套餐）｜嬰兒安全座椅 × 1<br>
+                <button type="button" class="copy-btn" data-copy="岡山市北区日応寺1565">複製還車地址</button>
+              </td>
+              <td class="mono"><span class="masked-chip is-locked" data-secret-text="toyota_price" data-masked-text="JPY ••,•••">JPY ••,•••</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 手機版堆疊卡片 -->
+      <div class="booking-cards" aria-label="預訂明細手機版卡片">
+        <article class="booking-card">
+          <div class="booking-card-head">
+            <div>
+              <div class="booking-card-title"><span class="masked-chip is-locked" data-secret-text="tiger_card_title" data-masked-text="台灣虎航機票 ••••••">台灣虎航機票 ••••••</span></div>
+              <div class="mono">IT214 去程 ／ IT215 回程</div>
+            </div>
+            <div class="booking-card-price"><span class="masked-chip is-locked" data-secret-text="tiger_price" data-masked-text="TWD ••,•••">TWD ••,•••</span></div>
+          </div>
+          <div class="booking-card-row"><strong>去程 02/10：</strong><span class="mono">11:10 → 14:35</span> 桃園 T1 → 岡山 OKJ｜<span class="masked-chip is-locked" data-secret-text="tiger_seat_out" data-masked-text="已選位（解鎖檢視座位）">已選位（解鎖檢視座位）</span>，託運 30kg×1 + 20kg×3</div>
+          <div class="booking-card-row"><strong>回程 02/14：</strong><span class="mono">15:25 → 17:30</span> 岡山 OKJ → 桃園 T1｜<span class="masked-chip is-locked" data-secret-text="tiger_seat_in" data-masked-text="已選位（解鎖檢視座位）">已選位（解鎖檢視座位）</span>，託運 40kg×1 + 30kg×3，含優先行李與餐點（含蛋奶素）</div>
+          <div>
+            <button type="button" class="copy-btn locked-copy" data-secret-copy="tiger_code" data-unlocked-label="複製訂位代號" data-locked-label="🔒 解鎖複製訂位代號">🔒 解鎖複製訂位代號</button>
+          </div>
+        </article>
+
+        <article class="booking-card">
+          <div class="booking-card-head">
+            <div>
+              <div class="booking-card-title"><span class="masked-chip is-locked" data-secret-text="airbnb_name" data-masked-text="西古松獨棟民宿">西古松獨棟民宿</span></div>
+              <div class="mono"><span class="masked-chip is-locked" data-secret-text="airbnb_label" data-masked-text="Airbnb ••••••••••">Airbnb ••••••••••</span></div>
+            </div>
+            <div class="booking-card-price"><span class="masked-chip is-locked" data-secret-text="airbnb_price" data-masked-text="TWD ••,•••">TWD ••,•••</span></div>
+          </div>
+          <div class="booking-card-row"><strong>入住／退房：</strong>02/10 16:00 入住 ～ 02/14 10:00 退房（4 晚連住）</div>
+          <div class="booking-card-row"><strong>規格與地址：</strong>整套 3 房獨棟・免費車位 2 台｜<span class="secret-link-slot is-locked" data-secret-href="airbnb_map_url" data-secret-text="airbnb_addr_zh" data-masked-text="🔒 岡山市北區西古松（解鎖顯示門牌與地圖）">🔒 岡山市北區西古松（解鎖顯示門牌與地圖）</span></div>
+          <div class="booking-card-row"><strong>房東聯絡：</strong><span class="masked-chip is-locked" data-secret-text="host_full" data-masked-text="聯絡人（+81 80-••••-••••）">聯絡人（+81 80-••••-••••）</span></div>
+          <div>
+            <button type="button" class="copy-btn locked-copy" data-secret-copy="airbnb_code" data-unlocked-label="複製訂房代號" data-locked-label="🔒 解鎖複製訂房代號">🔒 解鎖複製訂房代號</button>
+            <button type="button" class="copy-btn locked-copy" data-secret-copy="airbnb_addr_jp" data-unlocked-label="複製導航地址" data-locked-label="🔒 解鎖複製地址">🔒 解鎖複製地址</button>
+            <button type="button" class="copy-btn locked-copy" data-secret-copy="host_phone_copy" data-unlocked-label="複製房東電話" data-locked-label="🔒 解鎖複製電話">🔒 解鎖複製電話</button>
+          </div>
+        </article>
+
+        <article class="booking-card">
+          <div class="booking-card-head">
+            <div>
+              <div class="booking-card-title">TOYOTA 岡山機場店</div>
+              <div class="mono"><span class="masked-chip is-locked" data-secret-text="toyota_card_sub" data-masked-text="預約單號 •••••••••••">預約單號 •••••••••••</span></div>
+            </div>
+            <div class="booking-card-price"><span class="masked-chip is-locked" data-secret-text="toyota_price" data-masked-text="JPY ••,•••">JPY ••,•••</span></div>
+          </div>
+          <div class="booking-card-row"><strong>取車／還車：</strong>02/10 15:00 取車 ～ 02/14 13:00 還車</div>
+          <div class="booking-card-row"><strong>車款規格：</strong>W2 等級 VOXY Hybrid（禁煙・AT・雪地輪胎・完整套餐）＋ 嬰兒安全座椅 × 1</div>
+          <div class="booking-card-row"><strong>門市地址：</strong>岡山市北區日応寺 1565</div>
+          <div>
+            <button type="button" class="copy-btn locked-copy" data-secret-copy="toyota_code" data-unlocked-label="複製租車單號" data-locked-label="🔒 解鎖複製租車單號">🔒 解鎖複製租車單號</button>
+            <button type="button" class="copy-btn" data-copy="岡山市北区日応寺1565">複製還車地址</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 車程節奏圖表 -->
+  <section id="pace" class="sec grid">
+    <div class="col-1-4">
+      <h2>五日車程節奏：單日駕駛不超過 65 分鐘</h2>
+      <p>岡山與倉敷景點分布極為緊湊，以大元站旁的西古松獨棟民宿為中心放射狀出遊最省力。每天累積行車時間控制在 35 至 65 分鐘，確保 10 個月寶寶不會因久坐安全座椅而煩躁，兩位 60 歲長輩每天下午都能回屋歇腳。</p>
+    </div>
+    <div class="col-5-12">
+      <figure>
+        <p class="fig-title">五日行程每日累積駕駛時間控制在 35 至 65 分鐘，保留充裕午休與哺乳空檔</p>
+        <svg viewBox="0 0 680 380" width="100%" role="img" aria-label="五日行程每日預估駕駛時間長條圖">
+          <line x1="150" y1="44" x2="620" y2="44" stroke="#D5DCE0" stroke-width="1"/>
+          <line x1="150" y1="316" x2="620" y2="316" stroke="#11161A" stroke-width="1.2"/>
+          <line x1="150" y1="44" x2="150" y2="316" stroke="#11161A" stroke-width="1.2"/>
+          <line x1="267" y1="44" x2="267" y2="316" stroke="#D5DCE0" stroke-width="1"/>
+          <line x1="385" y1="44" x2="385" y2="316" stroke="#D5DCE0" stroke-width="1"/>
+          <line x1="502" y1="44" x2="502" y2="316" stroke="#D5DCE0" stroke-width="1"/>
+          <line x1="620" y1="44" x2="620" y2="316" stroke="#D5DCE0" stroke-width="1"/>
+
+          <text x="150" y="340" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#4A5560">0</text>
+          <text x="267" y="340" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#4A5560">20</text>
+          <text x="385" y="340" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#4A5560">40</text>
+          <text x="502" y="340" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#4A5560">60</text>
+          <text x="620" y="340" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#4A5560">80 分鐘</text>
+          <text x="385" y="366" text-anchor="middle" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="13" fill="#4A5560">單日預估累積開車時間（分鐘）</text>
+
+          <text x="138" y="84" text-anchor="end" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="14" font-weight="600" fill="#11161A">2/10 抵達・AEON</text>
+          <rect x="150" y="64" width="294" height="28" rx="4" fill="#1E3A5F"/>
+          <text x="454" y="83" font-family="Google Sans Code, Noto Sans TC, monospace" font-size="14" fill="#11161A">約 50 分鐘</text>
+
+          <text x="138" y="138" text-anchor="end" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="14" font-weight="600" fill="#11161A">2/11 倉敷・Outlet</text>
+          <rect x="150" y="118" width="382" height="28" rx="4" fill="#B34722"/>
+          <text x="542" y="137" font-family="Google Sans Code, Noto Sans TC, monospace" font-size="14" fill="#8A2E0F" font-weight="500">約 65 分鐘</text>
+
+          <text x="138" y="192" text-anchor="end" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="14" font-weight="600" fill="#11161A">2/12 吉備路草莓</text>
+          <rect x="150" y="172" width="382" height="28" rx="4" fill="#1E3A5F"/>
+          <text x="542" y="191" font-family="Google Sans Code, Noto Sans TC, monospace" font-size="14" fill="#11161A">約 65 分鐘</text>
+
+          <text x="138" y="246" text-anchor="end" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="14" font-weight="600" fill="#11161A">2/13 後樂園・城</text>
+          <rect x="150" y="226" width="206" height="28" rx="4" fill="#1E3A5F"/>
+          <text x="366" y="245" font-family="Google Sans Code, Noto Sans TC, monospace" font-size="14" fill="#11161A">約 35 分鐘</text>
+
+          <text x="138" y="300" text-anchor="end" font-family="Plus Jakarta Sans, Noto Sans TC, sans-serif" font-size="14" font-weight="600" fill="#11161A">2/14 退房・還車</text>
+          <rect x="150" y="280" width="235" height="28" rx="4" fill="#1E3A5F"/>
+          <text x="395" y="299" font-family="Google Sans Code, Noto Sans TC, monospace" font-size="14" fill="#11161A">約 40 分鐘</text>
+        </svg>
+        <figcaption>單位：分鐘。估算依據機場、岡山市區西古松民宿、倉敷及總社之間的平面與國道一般車程，不含塞車或中途休息。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 逐日行程 -->
+  <section id="itinerary" class="sec">
+    <h2>逐日行程規劃：兼顧 60 歲長輩體力、歷史深度與嬰兒作息</h2>
+    <p class="measure">2 月岡山平均氣溫約 1°C 至 10°C（<a href="https://weatherspark.com/m/143255/2/Average-Weather-in-February-in-Okayama-Japan" target="_blank" rel="noopener noreferrer">WeatherSpark</a>），晴天率高但早晚偏冷。以下每日皆內嵌景點實景、歷史故事摘要與車用導航電話一鍵複製按鈕；手機閱讀時可點擊下方天數按鈕快速篩選單日行程。</p>
+
+    <div class="day-filter-bar" role="tablist" aria-label="依天數篩選行程">
+      <button type="button" class="day-tab active" data-day-filter="all">全部 5 天</button>
+      <button type="button" class="day-tab" data-day-filter="day1">Day 1 · 2/10</button>
+      <button type="button" class="day-tab" data-day-filter="day2">Day 2 · 2/11</button>
+      <button type="button" class="day-tab" data-day-filter="day3">Day 3 · 2/12</button>
+      <button type="button" class="day-tab" data-day-filter="day4">Day 4 · 2/13</button>
+      <button type="button" class="day-tab" data-day-filter="day5">Day 5 · 2/14</button>
+    </div>
+
+    <!-- DAY 1 -->
+    <div id="day1" class="day-block" data-day="day1">
+      <div class="day-meta">
+        <div class="day-date">DAY 1 · 2027/02/10（週三）</div>
+        <h3 class="day-title">抵達岡山、取車安頓與 AEON 採買</h3>
+        <p class="day-note">重點：確認 VOXY Hybrid 嬰兒座椅安裝牢固，先回民宿卸下大件行李，再到大型商場吹暖氣用晚餐與補齊四天備品。</p>
+        <div class="day-badges">
+          <span class="badge">累積車程約 50 分</span>
+          <span class="badge warm">全室內暖氣・無階梯</span>
+        </div>
+      </div>
+      <div class="day-schedule">
+        <ul class="slot-list">
+          <li>
+            <span class="slot-time">14:35</span><span class="slot-head">抵達岡山桃太郎機場 (OKJ) 並前往 TOYOTA 租車取車</span>
+            <p class="slot-desc">搭乘 IT214 抵達後辦理入境（<strong>重要：務必在護照取得入境許可印章</strong>，TOYOTA 櫃檯交車時必查驗）。15:00 至 <a href="https://rent.toyota.co.jp/zh-tw/" target="_blank" rel="noopener noreferrer">TOYOTA 租車岡山機場店</a> 領取 VOXY Hybrid，現場確認嬰兒安全座椅角度與雪地輪胎胎壓。</p>
+          </li>
+          <li>
+            <span class="slot-time">16:00</span><span class="slot-head">入住 <span class="masked-chip is-locked" data-secret-text="airbnb_name" data-masked-text="西古松獨棟民宿">西古松獨棟民宿</span> 卸行李休息</span>
+            <p class="slot-desc">從機場開車約 30–35 分鐘抵達 <span class="secret-link-slot is-locked" data-secret-href="airbnb_map_url" data-secret-text="airbnb_day1_link" data-masked-text="🔒 西古松獨棟民宿（解鎖開啟地圖）">🔒 西古松獨棟民宿（解鎖開啟地圖）</span>。房源備有 2 個免費停車位，從大門鑰匙盒取鑰匙進屋，先讓長輩歇息並餵寶寶喝奶或副食品。</p>
+          </li>
+          <li>
+            <span class="slot-time">17:30</span><span class="slot-head">永旺夢樂城岡山 (AEON MALL Okayama) 晚餐與超市補給</span>
+            <p class="slot-desc">車程僅 8–10 分鐘。<a href="https://tw.aeonmall.global/mall/okayama" target="_blank" rel="noopener noreferrer">永旺夢樂城岡山</a> 備有 <a href="https://en.aeonmall.global/mall/okayama/services-facilities" target="_blank" rel="noopener noreferrer">哺乳室、無障礙廁所與大型電梯</a>。晚餐於 6–7F 餐廳街選擇豆腐鍋物、和食或烏龍麵（兼顧長輩清淡與蛋奶素），餐後至 1F AEON STYLE 超市（營業至 23:00）購買隔日早餐與寶寶用品。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="永旺夢樂城岡山外觀實景（來源：AEON MALL Okayama 官網）">
+                <img src="https://tw.aeonmall.global/_next/image?url=https%3A%2F%2F4ltg152e5bckmge3.public.blob.vercel-storage.com%2Fassets%2Fimages%2Fokayama%2Findex%2Fimg-kv_1.jpg&w=3840&q=75" alt="永旺夢樂城岡山外觀實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">地標小史｜2014 年開業「晴之街 haremachi」西日本旗艦商場</div>
+                <p class="spot-history-text">前身為岡山縣立農業試驗場及都市更新用地的南館區，2014 年底作為連結岡山站地下通道的都會型旗艦商場開業，品牌概念「haremachi（晴れの街）」呼應岡山「晴天之國」美譽。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-803-6700</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-803-6700">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- DAY 2 -->
+    <div id="day2" class="day-block" data-day="day2">
+      <div class="day-meta">
+        <div class="day-date">DAY 2 · 2027/02/11（週四・建國紀念日）</div>
+        <h3 class="day-title">倉敷美觀地區慢遊 × 常春藤廣場 × 三井 Outlet</h3>
+        <p class="day-note">注意：本日為日本國定假日，建議 09:00 出發搶停近入口平面車位。若遇寒風，午後直接轉入相鄰的 Outlet 與 Ario 室內空間。</p>
+        <div class="day-badges">
+          <span class="badge">累積車程約 65 分</span>
+          <span class="badge warm">石板平路・跳過阿智神社階梯</span>
+        </div>
+      </div>
+      <div class="day-schedule">
+        <ul class="slot-list">
+          <li>
+            <span class="slot-time">09:30</span><span class="slot-head">倉敷美觀地區運河散策 &amp; 倉敷常春藤廣場</span>
+            <p class="slot-desc">民宿出發約 25–30 分鐘，停放 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市營中央停車場</a> 或阿知 3 丁目停車場。沿 <a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">倉敷美觀地區</a> 平坦石板路漫步，跳過需爬階梯的阿智神社，可至 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所</a> 歇腳或體驗倉敷川遊船，並順道散步至緊鄰的紅磚廣場「倉敷常春藤廣場」。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="倉敷常春藤廣場（Kurashiki Ivy Square）紅磚建築實景（來源：岡山縣官方觀光指南）">
+                <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/16-15-31-21-10071f1fd5a4e52dfe9821e249a57c6b8ee4.webp?w=656" alt="倉敷常春藤廣場紅磚建築實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">歷史導覽｜1642 年江戶幕府天領・1889 年倉敷紡績紅磚廠房</div>
+                <p class="spot-history-text">1642 年江戶幕府將倉敷劃為直轄領地「天領」並設「倉敷代官所」，運河沿岸建起「なまこ壁」白壁倉庫；1930 年更誕生日本首座私立西洋美術館大原美術館。明治 22 年（1889 年）代官所舊址改建為「倉敷紡績」紅磚工廠（即今常春藤廣場），見證倉敷從漕運糧倉邁向近代紡織之都的轉折。</p>
+                <div class="spot-meta-row">
+                  <span>休憩所導航：<strong class="mono">086-425-6039</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-425-6039">複製休憩所電話</button>
+                  <button type="button" class="copy-btn" data-copy="086-422-0542">複製倉敷館電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">12:15</span><span class="slot-head">MITSUI OUTLET PARK 倉敷 &amp; Ario 倉敷午餐與親子休憩</span>
+            <p class="slot-desc">開車約 5 分鐘即達（兩館共約 2,600 個車位）。在此享用午餐並利用 <a href="https://mitsui-shopping-park.com/tw/mop/kurashiki/info/child.html" target="_blank" rel="noopener noreferrer">三井 Outlet 倉敷嬰兒設施</a>（哺乳室提供熱水泡奶、尿布台與親子廁所）。午後長輩可於室內咖啡廳小憩，其餘成員輕鬆逛街。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="MITSUI OUTLET PARK 倉敷園區實景（來源：岡山觀光WEB）">
+                <img src="https://www.okayama-kanko.jp/lsc/upfile/spot/0001/0319/10319_1_l.jpg" alt="MITSUI OUTLET PARK 倉敷實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">歷史變遷｜昔日「倉敷蒂沃利公園」原址重生為中四國最大 Outlet</div>
+                <p class="spot-history-text">園區緊鄰 JR 倉敷站北口，其原址曾是 1997 至 2008 年間以丹麥哥本哈根為藍本打造的知名主題樂園「倉敷チボリ公園」。閉園後土地整合再開發為倉敷未來公園、Ario 商場與中四國最大級的三井 Outlet，保留綠意步道且全區平坦。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-423-6500</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-423-6500">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">17:30</span><span class="slot-head">返回岡山市區晚餐</span>
+            <p class="slot-desc">避開假日夜間車潮提前回市區，於大元或岡山車站周邊享用家庭式和食晚餐（或外帶回民宿舒適共餐）。</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- DAY 3 -->
+    <div id="day3" class="day-block" data-day="day3">
+      <div class="day-meta">
+        <div class="day-date">DAY 3 · 2027/02/12（週五）</div>
+        <h3 class="day-title">吉備津彥神社平地參拜 × 溫室草莓採果 × 備中國分寺</h3>
+        <p class="day-note">特別挑選「吉備津彥神社」取代階梯較多的吉備津神社，平地參道對 60 歲長輩膝蓋與推車最友善，順路銜接溫暖的高設溫室採果。</p>
+        <div class="day-badges">
+          <span class="badge">累積車程約 65 分</span>
+          <span class="badge warm">免彎腰高設草莓・全程平緩</span>
+        </div>
+      </div>
+      <div class="day-schedule">
+        <ul class="slot-list">
+          <li>
+            <span class="slot-time">09:30</span><span class="slot-head">吉備津彥神社（桃太郎能量神社）平地參拜</span>
+            <p class="slot-desc">民宿出發約 15–20 分鐘抵達 <a href="https://www.kibitsuhiko.or.jp/" target="_blank" rel="noopener noreferrer">吉備津彥神社</a>（附約 100 個免費停車位，06:00–18:00 開放）。全區參道平緩好推車，第一停車場旁有桃太郎與狗、猴、雉雞雕像，社務所還有可愛的桃子造型神籤與繪馬，停留約 35 分鐘祈福。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="吉備津彥神社社殿與平坦參道實景（來源：岡山縣官方觀光指南）">
+                <img src="https://place.matcha-jp.com/resize/1280x2000/2022/12/27-17-03-25-100107e15d4c0ed63cb9fb53be0aabf79908.webp?w=656" alt="吉備津彥神社社殿與平坦參道實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">神話與歷史｜備前國一宮・桃太郎原型「朝日之宮」與 1697 年本殿</div>
+                <p class="spot-history-text">主祭平定吉備國的大吉備津彥命，即日本國民神話《桃太郎》原型。因夏至清晨太陽恰好從正面鳥居升起並直射神殿，古稱「朝日之宮」。現存本殿為元祿 10 年（1697 年）岡山藩主池田綱政重建，境內尚有樹齡逾千年的神木「平安杉」。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-284-0031</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-284-0031">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">10:30</span><span class="slot-head">農マル園芸 吉備路農園 高設草莓採果 &amp; 午餐</span>
+            <p class="slot-desc">約 15 分鐘抵達 <a href="https://www.noumaru.jp/index_kibiji.html" target="_blank" rel="noopener noreferrer">農マル園芸 吉備路農園</a>。全區採「高設栽培」架高草莓槽，長輩免彎腰、走道平坦可推嬰兒車（務必提前於 <a href="http://noumaru.jp/yoyaku.html" target="_blank" rel="noopener noreferrer">官網預約時段</a>）。採果後可在園區內花園咖啡廳與石窯披薩屋用午餐，並逛農產直賣所買伴手禮。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="農マル園芸吉備路農園高設栽培草莓溫室實景（來源：農マル園芸官網）">
+                <img src="https://www.noumaru.jp/images/taiken/f-ichigo1.jpg" alt="農マル園芸吉備路農園高設栽培草莓溫室實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">風土傳統｜承襲「晴天之國岡山」百年果樹王國的現代高設溫室</div>
+                <p class="spot-history-text">岡山自明治時代起即引進溫室葡萄與水蜜桃栽培技術，憑藉年均降雨日少、日照充足贏得「晴天之國・水果王國」美名。農マル園芸作為中四國最大級綜合觀光農園，將冬季草莓架高至腰部高度，溫室內恆溫舒適、不受二月寒風影響。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">0866-94-6755</strong></span>
+                  <button type="button" class="copy-btn" data-copy="0866-94-6755">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">13:30</span><span class="slot-head">備中國分寺（吉備路五重塔）平地散步（或回暖備案：鷲羽山與兒島）</span>
+            <p class="slot-desc">開車 5 分鐘至備中國分寺周邊平地田園散步拍照，不爬坡不走階梯，15:00 前回民宿讓寶寶午睡。<em>備案：若當天氣溫回暖且長輩想看海，可改往南開車約 40 分鐘至 <a href="https://www.okayama-japan.jp/en/spot/10761" target="_blank" rel="noopener noreferrer">鷲羽山展望台</a> 遠眺瀨戶大橋與 <a href="https://www.westjr.co.jp/global/en/ticket/setouchi/spot/setouchi.html" target="_blank" rel="noopener noreferrer">兒島牛仔褲街</a>（海邊風大請加穿防風外套）。</em></p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="備中國分寺五重塔實景（來源：岡山觀光WEB）">
+                <img src="https://www.okayama-kanko.jp/lsc/upfile/spot/0001/0754/10754_2_l.jpg" alt="備中國分寺五重塔實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">文化遺產｜741 年聖武天皇詔建・岡山縣唯一現存 34 公尺五重塔</div>
+                <p class="spot-history-text">741 年奈良時代聖武天皇為祈求國泰民安，詔令日本全國興建「國分寺」。現存高約 34 公尺的五重塔於江戶後期文政 4 年（1821 年）前後動工重建、歷經數十年至弘化年間落成，為岡山縣境內唯一五重塔（國家重要文化財）。</p>
+                <div class="spot-meta-row">
+                  <span>案內所電話：<strong class="mono">0866-94-3155</strong></span>
+                  <button type="button" class="copy-btn" data-copy="0866-94-3155">複製國分寺案內所電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- DAY 4 -->
+    <div id="day4" class="day-block" data-day="day4">
+      <div class="day-meta">
+        <div class="day-date">DAY 4 · 2027/02/13（週六）</div>
+        <h3 class="day-title">日本三大名園「岡山後樂園」× 岡山城 × 岡山神社</h3>
+        <p class="day-note">車程僅 12–15 分鐘，購入「後樂園＋岡山城聯票 ¥800」省時又實惠，且岡山城天守閣內建電梯可直達 4 樓。</p>
+        <div class="day-badges">
+          <span class="badge">累積車程約 35 分</span>
+          <span class="badge warm">岡山城電梯直達 4F・全區平緩</span>
+        </div>
+      </div>
+      <div class="day-schedule">
+        <ul class="slot-list">
+          <li>
+            <span class="slot-time">09:45</span><span class="slot-head">岡山後樂園 冬日名園散策</span>
+            <p class="slot-desc">停放 <a href="https://www.okayama-japan.jp/en/spot/10672" target="_blank" rel="noopener noreferrer">岡山後樂園停車場</a>（570 個車位）。2 月開放時間為 08:00–17:00（<a href="https://okayama-korakuen.jp/section/english/info/index.html" target="_blank" rel="noopener noreferrer">官網資訊</a>），可購買「後樂園＋岡山城聯票 ¥800」。園內多為平坦碎石與鋪裝路，可欣賞冬日紅白梅林與丹頂鶴。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="日本三大名園「岡山後樂園」實景（來源：岡山縣官方觀光指南）">
+                <img src="https://place.matcha-jp.com/resize/1280x2000/2022/11/24-14-49-56-f9596f2970b707e18fe61f24a44b1c90.webp?w=656" alt="岡山後樂園迴遊式庭園實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">名園歷史｜1687–1700 年池田綱政與津田永忠營造・國家特別名勝</div>
+                <p class="spot-history-text">岡山藩第二代藩主池田綱政命家臣津田永忠於 1687 年動工、1700 年完工的大名迴遊式庭園。原稱「御後園」，明治 4 年（1871 年）取范仲淹《岳陽樓記》「先天下之憂而憂，後天下之樂而樂」改名為後樂園，巧妙借景岡山城與操山，1952 年獲指定為國家「特別名勝」。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-272-1148</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-272-1148">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">12:00</span><span class="slot-head">月見橋周邊午餐與岡山城（烏城）參觀</span>
+            <p class="slot-desc">午餐後經月見橋進入 <a href="https://okayama-castle.jp/guide-en/" target="_blank" rel="noopener noreferrer">岡山城天守閣</a>（09:00–17:30）。2022 年「令和大改修」翻新後內部設施新穎，<strong>電梯可直達 1 至 4 樓</strong>主要展區（5–6 樓頂層為階梯，可由年輕人輪流上去拍照，長輩與寶寶在室內休息區等候）。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="岡山城黑色天守閣（烏城）外觀實景（來源：岡山縣官方觀光指南）">
+                <img src="https://place.matcha-jp.com/resize/1280x2000/2025/07/15-11-35-37-100142d160dda3812b1d0091fb2316b3c39e.webp?w=656" alt="岡山城黑色天守閣外觀實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">名城歷史｜1597 年宇喜多秀家築城・國重文月見櫓・2022 令和大改修</div>
+                <p class="spot-history-text">慶長 2 年（1597 年）戰國大名宇喜多秀家歷時八年擴建完工，因外牆鋪設黑漆下見板與金箔瓦，而有「烏城（金烏城）」之稱（與白鷺姫路城相對）。本丸內 1620 年代興建的「月見櫓」躲過二戰空襲現為國家重要文化財；天守閣於 2022 年 11 月重新開放並設有無障礙電梯。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-225-2096</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-225-2096">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">14:40</span><span class="slot-head">順道參拜「岡山神社」（備前岡山總鎮守）</span>
+            <p class="slot-desc">緊鄰岡山城北側（車程 2 分鐘或平地步行約 5 分鐘），<a href="https://www.okayama-jinjya.or.jp/" target="_blank" rel="noopener noreferrer">岡山神社</a> 附約 40 個車位（09:00–16:30）。境內平坦清幽、無爬坡壓力，適合長輩與寶寶輕鬆參拜祈福 20 分鐘。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="岡山神社境內與隨神門實景（來源：岡山縣官方觀光指南）">
+                <img src="https://place.matcha-jp.com/resize/1280x2000/2022/12/27-16-31-40-100110d792cc47b32b8e67400810f9aa0047.webp?w=656" alt="岡山神社境內與隨神門實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">古社歷史｜860 年創建・1745 年隨神門躲過大空襲</div>
+                <p class="spot-history-text">創建於平安時代貞觀年間（860 年），原座落於岡山城本丸內；天正元年（1573 年）宇喜多直家築岡山城時遷座至現址奉為備前岡山總鎮守。境內建於江戶時代延享 2 年（1745 年）的「隨神門」於 1945 年岡山大空襲中奇蹟倖存，為岡山市重要文化財。</p>
+                <div class="spot-meta-row">
+                  <span>導航電話：<strong class="mono">086-222-7198</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-222-7198">複製導航電話</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">15:30</span><span class="slot-head">岡山表町商店街或返 AEON 最後採買</span>
+            <p class="slot-desc">採買吉備糰子、白桃果凍、岡山晴王葡萄加工品等伴手禮後回民宿整理行李，避開最後一天早上的倉促感。</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- DAY 5 -->
+    <div id="day5" class="day-block" data-day="day5">
+      <div class="day-meta">
+        <div class="day-date">DAY 5 · 2027/02/14（週日）</div>
+        <h3 class="day-title">悠閒退房、機場前午餐與準時還車</h3>
+        <p class="day-note">回程 IT215 為 15:25 起飛，13:00 準時於機場旁 TOYOTA 還車後，時間非常從容。</p>
+        <div class="day-badges">
+          <span class="badge">累積車程約 40 分</span>
+          <span class="badge warm">13:00 還車・優先行李</span>
+        </div>
+      </div>
+      <div class="day-schedule">
+        <ul class="slot-list">
+          <li>
+            <span class="slot-time">10:00</span><span class="slot-head">退房並前往早午餐／國道 53 號沿途家庭餐廳</span>
+            <p class="slot-desc">10:00 前完成退房並將鑰匙放回大門鑰匙盒。之後可就近於岡山市區咖啡廳早午餐，或往北行駛國道 53 號朝岡山機場方向前進，於沿途家庭餐廳悠閒享用午餐。</p>
+          </li>
+          <li>
+            <span class="slot-time">12:45</span><span class="slot-head">加滿油並於 13:00 準時歸還 VOXY Hybrid</span>
+            <p class="slot-desc">於岡山機場周邊加油站加滿油（保留收據），13:00 前至 TOYOTA 租車岡山機場店還車並搭接駁車至航廈。</p>
+          </li>
+          <li>
+            <span class="slot-time">15:25</span><span class="slot-head">搭乘 IT215 返回桃園國際機場</span>
+            <p class="slot-desc">辦理託運（已含優先行李與充足重量，且機上已預訂排骨飯、炒米粉、蛋奶素及肉燥糯米飯等餐點），17:30 平安返抵桃園機場 T1。</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 景點歷史與實際照片完整圖鑑（含備案與延伸） -->
+  <section id="heritage" class="sec">
+    <h2>岡山・倉敷景點實景與歷史文化圖鑑（含天氣回暖備案）</h2>
+    <p class="measure">出發前先讓長輩用手機或平板瀏覽這份圖文並茂的「口袋導覽」，每一處都附上實際風景照、歷史故事與長輩／嬰兒推車無障礙重點（點擊圖片皆可放大觀看）。</p>
+
+    <div class="heritage-grid">
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="倉敷美觀地區運河與白壁土藏（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/19-18-01-37-1001917491399653a9fe66550faa7442c7a7.webp?w=656" alt="倉敷美觀地區運河實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 2 · 倉敷市</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1642 年天領 · 1979 年重要傳統建造物群保存地區</div>
+          <h3 class="heritage-title">倉敷美觀地區</h3>
+          <p class="heritage-desc">江戶時代寛永 19 年（1642 年）成為幕府直轄「天領」並設倉敷代官所，憑藉倉敷川舟運繁榮為米糧棉布樞紐。沿岸白壁土藏、黑瓦町家與柳樹倒影保留完整，1930 年企業家大原孫三郎更在此創設日本首座私立西洋美術館「大原美術館」。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>運河兩岸全區平地石板路好推車；跳過需登階梯的阿智神社，善用倉敷市觀光休憩所（<span class="mono">086-425-6039</span>）休息、換尿布或租借輪椅。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="倉敷常春藤廣場紅磚建築（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/16-15-31-21-10071f1fd5a4e52dfe9821e249a57c6b8ee4.webp?w=656" alt="倉敷常春藤廣場紅磚建築實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 2 · 倉敷市</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1889 年明治工業遺產 · 倉敷紡績舊址</div>
+          <h3 class="heritage-title">倉敷常春藤廣場（Kurashiki Ivy Square）</h3>
+          <p class="heritage-desc">原址為江戶幕府倉敷代官所，1889 年（明治 22 年）由倉敷紡績所（今 Kurabo）改建為日本初期的近代棉紡織廠房。當年為調節紡織室內的溫濕度而在紅磚牆種植大量常春藤，如今成為融合住宿、陶藝工坊與庭院餐廳的文化複合廣場。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>緊鄰美觀地區運河東側，中庭紅磚大道開闊平坦且設有室內休憩空間與無障礙廁所，寒風起時可迅速入內避風。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="MITSUI OUTLET PARK 倉敷園區（來源：岡山觀光WEB）">
+          <img src="https://www.okayama-kanko.jp/lsc/upfile/spot/0001/0319/10319_1_l.jpg" alt="MITSUI OUTLET PARK 倉敷實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 2 · 倉敷站北口</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1997 蒂沃利公園原址 · 中四國最大級 Outlet</div>
+          <h3 class="heritage-title">MITSUI OUTLET PARK 倉敷 &amp; Ario 倉敷</h3>
+          <p class="heritage-desc">座落於 JR 倉敷站北口步行 3 分鐘處，其前身為 1997–2008 年間的丹麥主題樂園「倉敷蒂沃利公園（Tivoli Park）」。閉園後與倉敷未來公園及 Ario 倉敷共同再開發，集結上百間國內外品牌與美食街，成為冬日三代逛街與室內歇腳首選。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>兩館合計約 2,600 個停車位，全區電梯與哺乳室齊全，提供熱水泡奶機、尿布台與嬰兒車借用（<span class="mono">086-423-6500</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="永旺夢樂城岡山外觀實景（來源：AEON MALL Okayama 官網）">
+          <img src="https://tw.aeonmall.global/_next/image?url=https%3A%2F%2F4ltg152e5bckmge3.public.blob.vercel-storage.com%2Fassets%2Fimages%2Fokayama%2Findex%2Fimg-kv_1.jpg&w=3840&q=75" alt="永旺夢樂城岡山外觀實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 1 &amp; Day 4 · 岡山市北區</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">2014 年開業 · haremachi（晴之街）旗艦商場</div>
+          <h3 class="heritage-title">永旺夢樂城岡山（AEON MALL Okayama）</h3>
+          <p class="heritage-desc">2014 年開幕的西日本大型都會型購物中心，距西古松民宿僅約 8–10 分鐘車程。館內匯聚岡山在地特產店「haremachi 特區 365」、多樣和食與素食友好餐廳，以及營業至深夜 23:00 的大型超市。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>室內恆溫暖氣、走道寬敞不壅擠，各樓層均有高品質哺乳室與座椅休息區（<span class="mono">086-803-6700</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="吉備津彥神社社殿與平坦參道（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2022/12/27-17-03-25-100107e15d4c0ed63cb9fb53be0aabf79908.webp?w=656" alt="吉備津彥神社實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 3 · 岡山市北區一宮</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">備前國一宮 · 1697 年池田綱政重建本殿</div>
+          <h3 class="heritage-title">吉備津彥神社（朝日之宮）</h3>
+          <p class="heritage-desc">奉祀《桃太郎》傳說原型大吉備津彥命，背倚神體山吉備中山。因建築方位精準對應太陽，夏至清晨朝日會穿透鳥居直射本殿，遂得「朝日之宮」美名。現存本殿由池田綱政於 1697 年重建，境內並矗立樹齡千年的「平安杉」。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>相較於需爬長階梯的吉備津神社，本神社從停車場至拜殿全程平地，並附約 100 個免費車位（<span class="mono">086-284-0031</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="農マル園芸 吉備路農園高設栽培草莓溫室（來源：農マル園芸官網）">
+          <img src="https://www.noumaru.jp/images/taiken/f-ichigo1.jpg" alt="農マル園芸高設草莓溫室實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 3 · 總社市</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">晴天之國水果文化 · 中四國最大級觀光農園</div>
+          <h3 class="heritage-title">農マル園芸 吉備路農園</h3>
+          <p class="heritage-desc">岡山自明治時期率先發展溫室水果技術，素有「水果王國」之稱。農マル園芸結合觀光草莓園、花園中心、石窯披薩與在地農夫直賣所，讓旅客在 2 月乾冷的冬季也能於暖洋洋的溫室裡品嚐現摘日本草莓。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>溫室採腰部高度「高設栽培」，長輩免蹲免彎腰、輪椅與嬰兒車可直入走道；須事前官網預約（<span class="mono">0866-94-6755</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="備中國分寺五重塔實景（來源：岡山觀光WEB）">
+          <img src="https://www.okayama-kanko.jp/lsc/upfile/spot/0001/0754/10754_2_l.jpg" alt="備中國分寺五重塔實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 3 · 總社市吉備路</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">741 年創建 · 1821 年前後重建五重塔（國重文）</div>
+          <h3 class="heritage-title">備中國分寺</h3>
+          <p class="heritage-desc">奈良時代（741 年）聖武天皇下詔在全國各國興建的國分寺之一。現存高約 34 公尺的五重塔於江戶後期文政 4 年（1821 年）前後動工、歷經二十餘年於弘化年間落成，是岡山縣內唯一現存的五重塔，也是吉備路田園最經典的地標。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>從停車場往外圍田園步道與境內觀賞五重塔皆為平緩道路，拍完照即可輕鬆上車回民宿午休（案內所 <span class="mono">0866-94-3155</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="鷲羽山展望台眺望瀨戶大橋與多島海景（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/19-15-18-01-1007b4f2ee50b97a3b068ba1b5a0ab864ab8.webp?w=656" alt="鷲羽山展望台眺望瀨戶大橋實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 3 回暖備案 · 兒島地區</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1934 瀨戶內海國立公園 · 1988 瀨戶大橋 · 1965 兒島丹寧</div>
+          <h3 class="heritage-title">鷲羽山展望台 × 兒島牛仔褲街</h3>
+          <p class="heritage-desc">1934 年被指定為日本首批國立公園的「瀨戶內海國立公園」代表勝景，可飽覽 1988 年全線通車、全長 13.1 公里的公路鐵路雙層「瀨戶大橋」。鄰近的兒島自江戶時代以耐鹽棉田與「真田紐」織帶聞名，戰後轉型日本第一學生服產地，並於 1965 年縫製出日本首條國產牛仔褲。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>備案彈性行程！鷲羽山展望台海風較強，若 2/12 氣溫偏暖再前往，先在第二展望台周邊平路賞橋景後即可順逛平地兒島牛仔褲街（<span class="mono">086-426-3411</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="日本三大名園「岡山後樂園」（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2022/11/24-14-49-56-f9596f2970b707e18fe61f24a44b1c90.webp?w=656" alt="岡山後樂園實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 4 · 岡山市北區</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1687–1700 年築園 · 日本三名園 · 國家特別名勝</div>
+          <h3 class="heritage-title">岡山後樂園</h3>
+          <p class="heritage-desc">岡山藩二代藩主池田綱政命津田永忠耗時 14 年營造的江戶大名庭園。原名「御後園」，1871 年取宋代范仲淹名句改稱「後樂園」。園內採開闊草坪與曲水設計，並巧妙借景旭川對岸的烏城與遠山，1952 年獲國家最高等級「特別名勝」指定。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>門前即有 570 格大型停車場，全園幾乎為平地碎石與鋪裝路（僅唯心山為小土坡可略過），備有哺乳室與茶屋休息座（<span class="mono">086-272-1148</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="岡山城黑色天守閣外觀實景（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2025/07/15-11-35-37-100142d160dda3812b1d0091fb2316b3c39e.webp?w=656" alt="岡山城黑色天守閣實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 4 · 岡山市北區</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1597 年宇喜多秀家築城 · 2022 令和大改修電梯</div>
+          <h3 class="heritage-title">岡山城（烏城／金烏城）</h3>
+          <p class="heritage-desc">由豐臣秀吉重臣宇喜多秀家於 1597 年擴建完成，因黑漆木板外牆與昔日金箔瓦而名喚「烏城」。關原之戰後由池田氏入主 260 餘年；本丸「月見櫓」（約 1620 年代）倖免於戰火為國家重要文化財，天守閣則於 2022 年 11 月 3 日完成令和大改修煥新開館。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>翻新後內部設有無障礙電梯可直達 1 至 4 樓常設展區，完全不必費力爬傳統木造陡梯；建議與後樂園合購 ¥800 聯票（<span class="mono">086-225-2096</span>）。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="岡山神社境內與隨神門實景（來源：岡山縣官方觀光指南）">
+          <img src="https://place.matcha-jp.com/resize/1280x2000/2022/12/27-16-31-40-100110d792cc47b32b8e67400810f9aa0047.webp?w=656" alt="岡山神社境內與隨神門實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 4 · 岡山市北區</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">860 年創建 · 備前岡山總鎮守 · 1745 隨神門</div>
+          <h3 class="heritage-title">岡山神社</h3>
+          <p class="heritage-desc">創建於平安時代清和天皇貞觀二年（860 年），主祭倭迹迹日百襲姬命。原建於旭川旁小丘上，1573 年宇喜多直家修築岡山城時將其遷至現址奉為總鎮守。建於 1745 年的江戶時代「隨神門」於 1945 年岡山大空襲中奇蹟留存至今，列為市重要文化財。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>緊鄰岡山城北側且全程平坦，附設約 40 格車位，逛完城郭後可順路花 20 分鐘清幽祈福（<span class="mono">086-222-7198</span>）。</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="pull-quote">
+    「連住四晚同一棟房子、每天只開一小時內的車，就能把倉敷天領老街、高設溫室草莓與日本三大名園一次收進回憶裡。」
+  </div>
+
+  <!-- 互動式行前檢核清單 -->
+  <section id="checklist" class="sec-tight">
+    <h2>行前必辦與冬季親子自駕檢核清單</h2>
+    <p class="measure">點選項目即可紀錄完成進度（狀態會自動儲存在您的裝置瀏覽器中），出發前請特別留意 Airbnb 自動扣款日、房客名冊表單與日本駕照譯本規定。</p>
+    <div id="checkProgress" class="checklist-progress">已完成 0 / 9 項</div>
+
+    <div class="cols-3">
+      <div class="col-item">
+        <h3>出發前必辦手續（有時效）</h3>
+        <ul class="check-list">
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c1">
+              <span><strong>2027/01/19 前：</strong>確認 <span class="masked-chip is-locked" data-secret-text="card_last4" data-masked-text="指定信用卡（尾號已隱藏）">指定信用卡（尾號已隱藏）</span> 額度充足，Airbnb 將於該日自動扣款 <span class="masked-chip is-locked" data-secret-text="airbnb_price" data-masked-text="TWD ••,•••">TWD ••,•••</span>。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c2">
+              <span><strong>2027/02/07 前（入住前 3 天）：</strong>填寫 <span class="secret-link-slot is-locked" data-secret-href="guest_form_url" data-secret-text="guest_form_label" data-masked-text="🔒 Airbnb 房客名單表單（解鎖後開啟）">🔒 Airbnb 房客名單表單（解鎖後開啟）</span>（全部 5 人資料），房東確認後才會發送鑰匙盒密碼。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c3">
+              <span><strong>出發前 2–4 週：</strong>上 <a href="http://noumaru.jp/yoyaku.html" target="_blank" rel="noopener noreferrer">農マル園芸官網</a> 預約 2/12 上午高設草莓採果時段。</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-item">
+        <h3>機場與自駕必備證件</h3>
+        <ul class="check-list">
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c4">
+              <span><strong>駕駛人證件：</strong>台灣駕照正本＋<strong>監理站申請之日文譯本</strong>（兩者缺一不可，不能只帶國際駕照）。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c5">
+              <span><strong>入境蓋章：</strong>抵達岡山機場若走自動化通關，務必向現場人員申請補蓋「登陸許可印章」，否則 TOYOTA 無法交車。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c6">
+              <span><strong>ETC 卡確認：</strong>依租車確認信提示，取車現場若有需要可詢問店鋪租借 ETC 卡或改走一般收費車道。</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-item">
+        <h3>長輩與 10 個月嬰兒保暖裝備</h3>
+        <ul class="check-list">
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c7">
+              <span><strong>洋蔥式穿搭：</strong>2 月岡山戶外約 1–10°C 但室內與溫室暖氣強，長輩與寶寶皆採易穿脫的羽絨背心＋防風外套。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c8">
+              <span><strong>推車防風罩與保溫瓶：</strong>美觀地區與後樂園開闊處偶有冬風，建議攜帶推車防風雨罩與高保溫悶燒罐（備用副食品／熱水）。</span>
+            </label>
+          </li>
+          <li>
+            <label class="check-label">
+              <input type="checkbox" data-check-id="c9">
+              <span><strong>飲食彈性：</strong>長輩若需蛋奶素或清淡飲食，大型商場（AEON、三井 Outlet）餐廳選擇最齊全，建議手機存好素食日文小卡。</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 來源 -->
+  <section id="sources" class="sec-tight">
+    <h2>Sources</h2>
+    <ol class="sources-list">
+      <li><span class="masked-chip is-locked" data-secret-text="tiger_source_label" data-masked-text="台灣虎航行程確認單 ••••••">台灣虎航行程確認單 ••••••</span>：<span class="secret-link-slot is-locked" data-secret-href="tiger_url" data-secret-text="gmail_flight_label" data-masked-text="🔒 Gmail 航班確認信（解鎖後開啟）">🔒 Gmail 航班確認信（解鎖後開啟）</span></li>
+      <li><span class="masked-chip is-locked" data-secret-text="airbnb_source_label" data-masked-text="Airbnb 住宿確認單 •••••••••• 與房東入住指引">Airbnb 住宿確認單 •••••••••• 與房東入住指引</span>：<span class="secret-link-slot is-locked" data-secret-href="airbnb_url" data-secret-text="airbnb_booking_link_label" data-masked-text="🔒 訂房確認信">🔒 訂房確認信</span>｜<span class="secret-link-slot is-locked" data-secret-href="airbnb_msg_url" data-secret-text="airbnb_msg_link_label" data-masked-text="🔒 房東訊息">🔒 房東訊息</span>｜<span class="secret-link-slot is-locked" data-secret-href="guest_form_url" data-secret-text="guest_form_short" data-masked-text="🔒 房客名冊表單">🔒 房客名冊表單</span></li>
+      <li><span class="masked-chip is-locked" data-secret-text="toyota_source_label" data-masked-text="TOYOTA 租車預約確認單 •••••••••••">TOYOTA 租車預約確認單 •••••••••••</span>：<span class="secret-link-slot is-locked" data-secret-href="toyota_url" data-secret-text="gmail_car_label" data-masked-text="🔒 Gmail 租車確認信（解鎖後開啟）">🔒 Gmail 租車確認信（解鎖後開啟）</span>｜<a href="https://rent.toyota.co.jp/zh-tw/" target="_blank" rel="noopener noreferrer">TOYOTA Rent a Car 官網</a></li>
+      <li>倉敷美觀地區與觀光設施：<a href="https://www.okayama-japan.jp/en/spot/10736" target="_blank" rel="noopener noreferrer">倉敷美觀地區官方介紹</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10808" target="_blank" rel="noopener noreferrer">倉敷常春藤廣場</a>｜<a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">Kurashiki Sightseeing Official</a>｜<a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所資訊</a>｜<a href="https://www.okayama-kanko.jp/spot/10319" target="_blank" rel="noopener noreferrer">MITSUI OUTLET PARK 倉敷（岡山觀光WEB）</a>｜<a href="https://mitsui-shopping-park.com/tw/mop/kurashiki/info/child.html" target="_blank" rel="noopener noreferrer">三井 Outlet 倉敷親子設施</a></li>
+      <li>岡山市區與吉備路景點：<a href="https://okayama-korakuen.jp/section/english/" target="_blank" rel="noopener noreferrer">岡山後樂園官網</a>｜<a href="https://okayama-castle.jp/guide-en/" target="_blank" rel="noopener noreferrer">岡山城官網</a>｜<a href="https://www.okayama-japan.jp/en/spot/13481" target="_blank" rel="noopener noreferrer">岡山城官方介紹</a>｜<a href="https://tw.aeonmall.global/mall/okayama" target="_blank" rel="noopener noreferrer">永旺夢樂城岡山</a>｜<a href="https://www.noumaru.jp/taiken.html" target="_blank" rel="noopener noreferrer">農マル園芸 吉備路農園草莓採果</a>｜<a href="https://www.okayama-kanko.jp/spot/10754" target="_blank" rel="noopener noreferrer">備中國分寺（岡山觀光WEB）</a>｜<a href="https://www.okayama-japan.jp/en/spot/10761" target="_blank" rel="noopener noreferrer">鷲羽山展望台</a></li>
+      <li>順路神社資訊：<a href="https://www.kibitsuhiko.or.jp/" target="_blank" rel="noopener noreferrer">吉備津彥神社官網</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10623" target="_blank" rel="noopener noreferrer">吉備津彥神社觀光介紹</a>｜<a href="https://www.okayama-jinjya.or.jp/" target="_blank" rel="noopener noreferrer">岡山神社官網</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10627" target="_blank" rel="noopener noreferrer">岡山神社觀光介紹</a></li>
+      <li>氣候參考：<a href="https://weatherspark.com/m/143255/2/Average-Weather-in-February-in-Okayama-Japan" target="_blank" rel="noopener noreferrer">WeatherSpark — Okayama February Weather</a></li>
+    </ol>
+  </section>
+</main>
+
+<!-- 圖片放大預覽視窗 -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="景點大圖檢視">
+  <button type="button" id="lightboxClose" class="lightbox-close" aria-label="關閉大圖">×</button>
+  <div class="lightbox-inner">
+    <img id="lightboxImg" src="" alt="">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+</div>
+
+<button type="button" id="backTop" class="back-top" aria-label="回到頂部">↑ 回到頂部</button>
+
+<script>
+(function () {
+  // Encrypted booking & contact payload (unlocked only with correct PIN)
+  var VAULT = {"s": "c41e4bfc60c9ab83bdbfff6758fcad23", "c": "3/dnDMPoG4NCAo9EzD5XlqwNjGPZlv+jtnQkm4ecdVGdptBbNj1WTzaCKX4IoOXyixQtQnsElAJ1oyyEv1mkLkearldGKpd/LuSzOgCQlYIBcjIh4LhkFoHx/K5MAziRrAqkoPP+TGlwVSnZSJ8+/ap6QnGl1snBoBVTrHFnMxlQFx+FdlenfoybiiAOZTKvh+aq2SYhh+xynuakUG9RuEWblMzrVeuFfqodmJ830jGch8f3cZq6sFy/plWoL5aXKyrBK5FFAJ65aneMXszLjRdx94vtum8Ponei9r0FPX6L3C21w+NwdykT+zVoyHzwA7qLHG0qftbCzEMd8Elen6BqOKdcT0MdeXlEkd6G77U4riomO5QOiI9ZJ+NU43nYJAbcL0HX1C4KisY9/cKKphlvZWPgPo+e582I09lWw/onyx6KWjJMetbqRJTrrk4GSupGFj882MPAMbtVBJzUlI1HlVpcxD75tx8bC1MGyz7zdQ4hBEm1YAm99/DJmqbr/49p0o9zRDdWutVxaHPGzVURPO3lpHJQYAtzfcJOvmPo1CxHrnNG4+ycOQRA/Sw3/OjAsTTC7bWvk4zUdJAsg8hzhy3dDW/lFyjj9sE74zU4t0TIMP5SW0bo8nYaMzyPZ80BgUbKkx0Qkij8apSCuW/LuiRgFUpQTsGU+1OaQFG/VSsbYSrq6GqjgOsKK2fneeUj88G5IRPcAGKzP+zEDYu4fwXvutEut6issK/4ENqFCC1s5FidZj4xzmgj18odyrgboo91n2uoL4Fquqg/807kzveJKj6nUIoP7P+8o3kDVIVpj9WuDxLGAoiFbm/3YD+BFG0sXDUAm0StNtq23Kceee+33BVBBv5ZKH2ifCwMl1GTpjV08ulHjXY2q6pJosT6vftXkSbeUoMdLyMzkrtPZE9HUZ59QvTv4jIxts0ALJbu7MAl+PCOlb6UOgMFA8cwiShegLqjXru8+siJflBIoGOTfKaRRcJ/jwKrWxS/4HPjHviGihnIfoI1rfuikY0IYJ+sjiATZnpn3fvwwvWtdfRHRmOMFcS5v/mKO2OvD+JfYcJD5UNxMvg0RgcFnxwP+9+h+2CKgm3mQ0DGhsNO21E5uUAS4DDYaX8sVOS68d30I4NIA9JeTVr7mX8qynoc4L3c4NuacMWeBTFKEuxP/7ErIfd9U/yKckwit878+XUAzW3f+ZsQazU1/+z4rU01tNLPGs0kjWJni12iK7gsyaK3BAsSw2B1g0a9UVJQVTlxMHHaadqqe8+4LE5VCOGDEcxZocT9oCAI6P0Y0j3f3Lh1ik0dpUkBG6CkBnuXH4eitikqSDHyxEdMSLJh30cZeRVo8vmC8ETMLsiLu0hBcl+KyNBhm8C3k93qB+CgRulePZOsv8TpzrLCJVfkgUmwVj2Pwr76gZInKZqZF43rFgB4rOw3cWPphVmpKrPQKyTgX0D7xSeCpuJ5xFWNtWulq7v8Jr3cfGj+PWnjslvtZ59M5DEWPxiev+/uvBdaf35I+6MAbDOUZIBKZiOstY12hos89zoyy5EmktXhUuTb3ss4xCVFI8+yGvmBE4JiWbDaj9YrZ0sf0V/FW14vJnISxrls2JfaYdIc7sbHY6IJysHAqyvAlHv2oz8xImEqwAJrfvHDDZOLXpcjkeFkhZjPk5i1qdp7I9L/lTB5UJyQ3H+pLFgrhgY57ZGv37kYqp8+dpcWnEaqjjRQ37ryarmCJwYFUs42WYw2qEefSG2+v/mA1f5TMk3145ffSueJR6S814ZhanXP1vILF6uL1GDL7AzDgUkfH++n2Rob1tp/x9W7sDihIybC31uBzS9LVdXOMfxRCmUTGc5klwLyltUGXjWE+1AwiJY68D4AWJOUN65j0dc7Rz0tTDzNbExmh4NSvX6z5leGvdLzi6zwwExAJiEsfpS9tl8SxOH67ro7jkAmVSAhYq6fPcq4Bb3DtVdoZTIs1CWHr8HUWFgRv3iynHSzpm1kJ4GKUS4k/+/LsnJKDS0phek1VNuYt7kwP04YbQDZnf99fB+mpRbLbpuOswG+dX84i8DpuxzInzd0KFI5AHM2+cqixTVSxlkv9zPtJKlxsjrLy9iDJai1QHI+RBaUktJsJ2U8FZsHzs9NJUvORF4QULBEQLi9wv1cj/gYszNMex6LrQNojdroFL4yVG2XczwlZGPTN/lzLEZDoKxSHSKADDDGWEos55K6nGb5Ufi64dISwju1jxuHxhpOioAGtdcXXplN53Z0ItlIG5SfgIkGEJ5SjFpW9kXWqpybYmjC+nBdzGxuGomE3fHwqOmR/2YbCXliEhBImMx8LdGh31Y4Q1EI5coSeGmnZfW8oX9TreZ2txDDfbP36bHYeBpFkZqXJNuGJu+HCL5/mlh60ReCOlLnoRXhr6ax7QQiMnkKwqxl7kFgVPOsySFn9lIbzN8o1nM05k6oiTDu5ZJSMVYlbNosFioEogeDlttBqoLSVldPnGv8cC/Hyd/6EmshuqSCGQ==", "t": "34f8e68f7881373a5afab6428aa80e72a792b51b38f2a2055e54771a65a7b37d"};
+
+  function utf8Bytes(str) {
+    var enc = unescape(encodeURIComponent(str));
+    var arr = new Uint8Array(enc.length);
+    for (var i = 0; i < enc.length; i++) arr[i] = enc.charCodeAt(i);
+    return arr;
+  }
+
+  function bytesToUtf8(bytes) {
+    var str = "";
+    for (var i = 0; i < bytes.length; i++) str += String.fromCharCode(bytes[i]);
+    return decodeURIComponent(escape(str));
+  }
+
+  function b64ToBytes(b64) {
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    var clean = b64.replace(/=+$/, "");
+    var out = [];
+    for (var i = 0; i < clean.length; i += 4) {
+      var a = chars.indexOf(clean[i]);
+      var b = chars.indexOf(clean[i + 1]);
+      var c = i + 2 < clean.length ? chars.indexOf(clean[i + 2]) : 0;
+      var d = i + 3 < clean.length ? chars.indexOf(clean[i + 3]) : 0;
+      var n = (a << 18) | (b << 12) | (c << 6) | d;
+      out.push((n >> 16) & 255);
+      if (i + 2 < clean.length) out.push((n >> 8) & 255);
+      if (i + 3 < clean.length) out.push(n & 255);
+    }
+    return new Uint8Array(out);
+  }
+
+  function sha256Bytes(msgBytes) {
+    var K = [
+      0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+      0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+      0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+      0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+      0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+      0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+      0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+      0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2
+    ];
+    var H = [0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+    var l = msgBytes.length;
+    var bitLenHi = Math.floor((l * 8) / 4294967296);
+    var bitLenLo = (l * 8) >>> 0;
+    var paddedLen = ((l + 9 + 63) >> 6) << 6;
+    var m = new Uint8Array(paddedLen);
+    m.set(msgBytes);
+    m[l] = 0x80;
+    m[paddedLen - 8] = (bitLenHi >>> 24) & 255;
+    m[paddedLen - 7] = (bitLenHi >>> 16) & 255;
+    m[paddedLen - 6] = (bitLenHi >>> 8) & 255;
+    m[paddedLen - 5] = bitLenHi & 255;
+    m[paddedLen - 4] = (bitLenLo >>> 24) & 255;
+    m[paddedLen - 3] = (bitLenLo >>> 16) & 255;
+    m[paddedLen - 2] = (bitLenLo >>> 8) & 255;
+    m[paddedLen - 1] = bitLenLo & 255;
+    var w = new Int32Array(64);
+    for (var off = 0; off < paddedLen; off += 64) {
+      for (var i = 0; i < 16; i++) {
+        w[i] = (m[off + i * 4] << 24) | (m[off + i * 4 + 1] << 16) | (m[off + i * 4 + 2] << 8) | m[off + i * 4 + 3];
+      }
+      for (var i = 16; i < 64; i++) {
+        var s0 = ((w[i - 15] >>> 7) | (w[i - 15] << 25)) ^ ((w[i - 15] >>> 18) | (w[i - 15] << 14)) ^ (w[i - 15] >>> 3);
+        var s1 = ((w[i - 2] >>> 17) | (w[i - 2] << 15)) ^ ((w[i - 2] >>> 19) | (w[i - 2] << 13)) ^ (w[i - 2] >>> 10);
+        w[i] = (w[i - 16] + s0 + w[i - 7] + s1) | 0;
+      }
+      var a = H[0], b = H[1], c = H[2], d = H[3], e = H[4], f = H[5], g = H[6], h = H[7];
+      for (var i = 0; i < 64; i++) {
+        var S1 = ((e >>> 6) | (e << 26)) ^ ((e >>> 11) | (e << 21)) ^ ((e >>> 25) | (e << 7));
+        var ch = (e & f) ^ ((~e) & g);
+        var t1 = (h + S1 + ch + K[i] + w[i]) | 0;
+        var S0 = ((a >>> 2) | (a << 30)) ^ ((a >>> 13) | (a << 19)) ^ ((a >>> 22) | (a << 10));
+        var maj = (a & b) ^ (a & c) ^ (b & c);
+        var t2 = (S0 + maj) | 0;
+        h = g; g = f; f = e; e = (d + t1) | 0; d = c; c = b; b = a; a = (t1 + t2) | 0;
+      }
+      H[0] = (H[0] + a) | 0; H[1] = (H[1] + b) | 0; H[2] = (H[2] + c) | 0; H[3] = (H[3] + d) | 0;
+      H[4] = (H[4] + e) | 0; H[5] = (H[5] + f) | 0; H[6] = (H[6] + g) | 0; H[7] = (H[7] + h) | 0;
+    }
+    var out = new Uint8Array(32);
+    for (var i = 0; i < 8; i++) {
+      out[i * 4] = (H[i] >>> 24) & 255;
+      out[i * 4 + 1] = (H[i] >>> 16) & 255;
+      out[i * 4 + 2] = (H[i] >>> 8) & 255;
+      out[i * 4 + 3] = H[i] & 255;
+    }
+    return out;
+  }
+
+  function bytesToHex(b) {
+    var hex = "";
+    for (var i = 0; i < b.length; i++) {
+      var h = b[i].toString(16);
+      hex += h.length < 2 ? "0" + h : h;
+    }
+    return hex;
+  }
+
+  function concatBytes(a, b) {
+    var out = new Uint8Array(a.length + b.length);
+    out.set(a);
+    out.set(b, a.length);
+    return out;
+  }
+
+  function decryptVault(pin) {
+    var saltBytes = utf8Bytes(VAULT.s);
+    var h = sha256Bytes(utf8Bytes(VAULT.s + ":" + pin));
+    for (var r = 0; r < 2000; r++) {
+      h = sha256Bytes(concatBytes(h, saltBytes));
+    }
+    var tagHex = bytesToHex(sha256Bytes(concatBytes(h, utf8Bytes("|verify|" + VAULT.c))));
+    if (tagHex !== VAULT.t) return null;
+    var ct = b64ToBytes(VAULT.c);
+    var pt = new Uint8Array(ct.length);
+    var pos = 0, counter = 0;
+    while (pos < ct.length) {
+      var block = sha256Bytes(concatBytes(h, utf8Bytes("|stream|" + counter)));
+      for (var j = 0; j < 32 && pos < ct.length; j++, pos++) {
+        pt[pos] = ct[pos] ^ block[j];
+      }
+      counter++;
+    }
+    return JSON.parse(bytesToUtf8(pt));
+  }
+
+  // Vault UI State
+  var SESSION_PIN_KEY = "okayama_2027_unlocked_pin_v1";
+  var unlockedSecrets = null;
+  var vaultBar = document.getElementById("privacyVault");
+  var lockedView = document.getElementById("vaultLockedView");
+  var unlockedView = document.getElementById("vaultUnlockedView");
+  var pinForm = document.getElementById("pinForm");
+  var pinInput = document.getElementById("pinInput");
+  var pinError = document.getElementById("pinError");
+  var relockBtn = document.getElementById("relockBtn");
+  var navUnlockBtn = document.getElementById("navUnlockBtn");
+
+  function promptUnlockFocus() {
+    if (!vaultBar) return;
+    vaultBar.scrollIntoView({ behavior: "smooth", block: "center" });
+    vaultBar.classList.remove("attention");
+    void vaultBar.offsetWidth;
+    vaultBar.classList.add("attention");
+    setTimeout(function () {
+      vaultBar.classList.remove("attention");
+    }, 900);
+    if (pinInput) {
+      setTimeout(function () { pinInput.focus(); }, 260);
+    }
+  }
+
+  function applyUnlockedSecrets(secrets, pin) {
+    unlockedSecrets = secrets;
+    try { sessionStorage.setItem(SESSION_PIN_KEY, pin); } catch (e) {}
+
+    document.querySelectorAll(".masked-chip[data-secret-text]").forEach(function (el) {
+      var key = el.getAttribute("data-secret-text");
+      if (secrets[key] !== undefined) {
+        el.textContent = secrets[key];
+        el.classList.remove("is-locked");
+      }
+    });
+
+    document.querySelectorAll(".secret-link-slot[data-secret-href]").forEach(function (el) {
+      var hrefKey = el.getAttribute("data-secret-href");
+      var textKey = el.getAttribute("data-secret-text");
+      var href = secrets[hrefKey];
+      var label = secrets[textKey];
+      if (href && label) {
+        var a = document.createElement("a");
+        a.href = href;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = label;
+        el.textContent = "";
+        el.appendChild(a);
+        el.classList.remove("is-locked");
+      }
+    });
+
+    document.querySelectorAll(".copy-btn[data-secret-copy]").forEach(function (btn) {
+      btn.classList.remove("locked-copy");
+      btn.textContent = btn.getAttribute("data-unlocked-label") || "複製";
+    });
+
+    if (vaultBar) vaultBar.classList.add("unlocked");
+    if (lockedView) lockedView.classList.add("is-hidden");
+    if (unlockedView) unlockedView.classList.remove("is-hidden");
+    if (pinError) {
+      pinError.textContent = "";
+      pinError.classList.add("is-hidden");
+    }
+    if (pinInput) pinInput.value = "";
+    if (navUnlockBtn) {
+      navUnlockBtn.textContent = "🔓 已解鎖（上鎖）";
+      navUnlockBtn.classList.add("unlocked");
+    }
+  }
+
+  function relockAll() {
+    unlockedSecrets = null;
+    try { sessionStorage.removeItem(SESSION_PIN_KEY); } catch (e) {}
+
+    document.querySelectorAll(".masked-chip[data-secret-text]").forEach(function (el) {
+      el.textContent = el.getAttribute("data-masked-text") || "••••••";
+      el.classList.add("is-locked");
+    });
+
+    document.querySelectorAll(".secret-link-slot[data-secret-href]").forEach(function (el) {
+      el.textContent = el.getAttribute("data-masked-text") || "🔒 已隱藏";
+      el.classList.add("is-locked");
+    });
+
+    document.querySelectorAll(".copy-btn[data-secret-copy]").forEach(function (btn) {
+      btn.classList.add("locked-copy");
+      btn.classList.remove("copied");
+      btn.textContent = btn.getAttribute("data-locked-label") || "🔒 解鎖複製";
+    });
+
+    if (vaultBar) vaultBar.classList.remove("unlocked");
+    if (lockedView) lockedView.classList.remove("is-hidden");
+    if (unlockedView) unlockedView.classList.add("is-hidden");
+    if (navUnlockBtn) {
+      navUnlockBtn.textContent = "🔒 解鎖隱私";
+      navUnlockBtn.classList.remove("unlocked");
+    }
+  }
+
+  if (pinForm) {
+    pinForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var val = (pinInput ? pinInput.value : "").trim();
+      if (!val) {
+        if (pinError) {
+          pinError.textContent = "請輸入解鎖密碼";
+          pinError.classList.remove("is-hidden");
+        }
+        return;
+      }
+      var res = decryptVault(val);
+      if (res) {
+        applyUnlockedSecrets(res, val);
+      } else {
+        if (pinError) {
+          pinError.textContent = "密碼錯誤，請確認後再試一次";
+          pinError.classList.remove("is-hidden");
+        }
+        if (vaultBar) {
+          vaultBar.classList.remove("shake");
+          void vaultBar.offsetWidth;
+          vaultBar.classList.add("shake");
+        }
+        if (pinInput) pinInput.select();
+      }
+    });
+  }
+
+  if (pinInput) {
+    pinInput.addEventListener("input", function () {
+      if (pinError && !pinError.classList.contains("is-hidden")) {
+        pinError.textContent = "";
+        pinError.classList.add("is-hidden");
+      }
+      var val = pinInput.value.trim();
+      if (val.length === 4) {
+        var res = decryptVault(val);
+        if (res) applyUnlockedSecrets(res, val);
+      }
+    });
+  }
+
+  if (relockBtn) {
+    relockBtn.addEventListener("click", relockAll);
+  }
+
+  if (navUnlockBtn) {
+    navUnlockBtn.addEventListener("click", function () {
+      if (unlockedSecrets) {
+        relockAll();
+      } else {
+        promptUnlockFocus();
+      }
+    });
+  }
+
+  // Tapping any masked inline chip when locked brings user to PIN input
+  document.addEventListener("click", function (e) {
+    if (unlockedSecrets) return;
+    var lockedEl = e.target.closest(".masked-chip.is-locked, .secret-link-slot.is-locked");
+    if (lockedEl) {
+      e.preventDefault();
+      promptUnlockFocus();
+    }
+  });
+
+  // Restore unlocked state for current browser tab session if already verified
+  try {
+    var savedPin = sessionStorage.getItem(SESSION_PIN_KEY);
+    if (savedPin) {
+      var restored = decryptVault(savedPin);
+      if (restored) applyUnlockedSecrets(restored, savedPin);
+      else sessionStorage.removeItem(SESSION_PIN_KEY);
+    }
+  } catch (e) {}
+
+  // 1. Copy-to-clipboard buttons (respect locked state for secret copy buttons)
+  document.querySelectorAll(".copy-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var secretKey = btn.getAttribute("data-secret-copy");
+      var text = "";
+      if (secretKey) {
+        if (!unlockedSecrets) {
+          promptUnlockFocus();
+          return;
+        }
+        text = unlockedSecrets[secretKey] || "";
+      } else {
+        text = btn.getAttribute("data-copy") || "";
+      }
+      if (!text) return;
+      var orig = secretKey ? (btn.getAttribute("data-unlocked-label") || "複製") : btn.textContent;
+      function markCopied() {
+        btn.classList.add("copied");
+        btn.textContent = "已複製 ✓";
+        setTimeout(function () {
+          btn.classList.remove("copied");
+          btn.textContent = orig;
+        }, 1600);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(markCopied).catch(function () {
+          fallbackCopy(text);
+          markCopied();
+        });
+      } else {
+        fallbackCopy(text);
+        markCopied();
+      }
+    });
+  });
+
+  function fallbackCopy(val) {
+    var ta = document.createElement("textarea");
+    ta.value = val;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  // 2. Day filter tabs (convenient for mobile single-day view)
+  var dayTabs = document.querySelectorAll(".day-tab");
+  var dayBlocks = document.querySelectorAll(".day-block");
+  dayTabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      var target = tab.getAttribute("data-day-filter");
+      dayTabs.forEach(function (t) { t.classList.remove("active"); });
+      tab.classList.add("active");
+      dayBlocks.forEach(function (block) {
+        if (target === "all" || block.getAttribute("data-day") === target) {
+          block.classList.remove("is-hidden");
+        } else {
+          block.classList.add("is-hidden");
+        }
+      });
+    });
+  });
+
+  // 3. Interactive checklist persisted to localStorage
+  var STORAGE_KEY = "okayama_2027_checklist_v1";
+  var savedChecks = {};
+  try {
+    savedChecks = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (e) { savedChecks = {}; }
+
+  var checkboxes = document.querySelectorAll("input[data-check-id]");
+  var progressEl = document.getElementById("checkProgress");
+
+  function updateChecklistUI() {
+    var checkedCount = 0;
+    checkboxes.forEach(function (cb) {
+      var label = cb.closest(".check-label");
+      if (cb.checked) {
+        checkedCount++;
+        if (label) label.classList.add("done");
+      } else {
+        if (label) label.classList.remove("done");
+      }
+    });
+    if (progressEl) {
+      progressEl.textContent = "已完成 " + checkedCount + " / " + checkboxes.length + " 項";
+    }
+  }
+
+  checkboxes.forEach(function (cb) {
+    var id = cb.getAttribute("data-check-id");
+    if (savedChecks[id]) cb.checked = true;
+    cb.addEventListener("change", function () {
+      savedChecks[id] = cb.checked;
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(savedChecks)); } catch (e) {}
+      updateChecklistUI();
+    });
+  });
+  updateChecklistUI();
+
+  // 4. Image lightbox zoom
+  var lb = document.getElementById("lightbox");
+  var lbImg = document.getElementById("lightboxImg");
+  var lbCap = document.getElementById("lightboxCaption");
+  var lbClose = document.getElementById("lightboxClose");
+
+  document.querySelectorAll("[data-lightbox]").forEach(function (trigger) {
+    trigger.addEventListener("click", function () {
+      var img = trigger.querySelector("img");
+      if (!img) return;
+      lbImg.src = img.src;
+      lbImg.alt = img.alt || "";
+      lbCap.textContent = trigger.getAttribute("data-caption") || img.alt || "";
+      lb.classList.add("open");
+    });
+  });
+
+  function closeLightbox() {
+    lb.classList.remove("open");
+    lbImg.src = "";
+  }
+
+  if (lbClose) lbClose.addEventListener("click", closeLightbox);
+  if (lb) {
+    lb.addEventListener("click", function (e) {
+      if (e.target === lb) closeLightbox();
+    });
+  }
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && lb.classList.contains("open")) closeLightbox();
+  });
+
+  // 5. Back-to-top button & active top nav highlighting
+  var backTop = document.getElementById("backTop");
+  var navLinks = document.querySelectorAll(".nav-pill");
+  var sections = Array.from(navLinks).map(function (link) {
+    var id = link.getAttribute("href").replace("#", "");
+    return { link: link, el: document.getElementById(id) };
+  }).filter(function (item) { return item.el; });
+
+  window.addEventListener("scroll", function () {
+    if (backTop) {
+      if (window.scrollY > 420) backTop.classList.add("visible");
+      else backTop.classList.remove("visible");
+    }
+    var pos = window.scrollY + 110;
+    var current = null;
+    sections.forEach(function (item) {
+      if (item.el.offsetTop <= pos) current = item.link;
+    });
+    navLinks.forEach(function (l) { l.classList.remove("active"); });
+    if (current) current.classList.add("active");
+  }, { passive: true });
+
+  if (backTop) {
+    backTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+})();
+</script>
+</body>
+</html>
