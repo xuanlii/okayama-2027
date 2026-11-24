@@ -934,6 +934,71 @@ tbody td.strong {
   color: var(--accent-2);
 }
 
+/* Specialty Omamori Showcase Grid */
+.omamori-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.omamori-item {
+  background: var(--paper);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.omamori-thumb {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--surface-soft);
+  cursor: zoom-in;
+}
+
+.omamori-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.omamori-body {
+  padding: 10px 12px 12px;
+}
+
+.omamori-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.omamori-desc {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink2);
+  margin: 0;
+}
+
+.omamori-warn {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(179, 71, 34, 0.25);
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink2);
+}
+
+.omamori-warn strong {
+  color: var(--accent-text);
+}
+
 /* Pull quote */
 .pull-quote {
   font-family: "Fraunces", "Noto Serif TC", serif;
@@ -1177,6 +1242,9 @@ tbody td.strong {
   .heritage-card-body {
     padding: 18px 18px 20px;
   }
+  .omamori-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1229,7 +1297,7 @@ tbody td.strong {
     <div class="span-10">
       <p class="eyebrow">OKAYAMA FAMILY ROAD TRIP · 2027/02/10 – 02/14 · 4 大 1 小（含兩位 60 歲長輩 &amp; 10 個月嬰兒）</p>
       <h1>2027 年 2 月岡山五天四夜：全程平地與室內暖活的三代同遊自駕指南</h1>
-      <p class="deck">已整合台灣虎航機票、岡山市區獨棟 Airbnb 與 TOYOTA 雪胎休旅車確認資訊，並收錄全行程 11 座核心景點與備案地標的實景攝影與歷史典故。個人訂位代號、民宿門牌、房東電話與確認信連結均已加密隱藏，輸入家族密碼即可開啟檢視。</p>
+      <p class="deck">已整合台灣虎航機票、岡山市區獨棟 Airbnb 與 TOYOTA 雪胎休旅車確認資訊，並收錄全行程 12 座核心景點與備案地標的實景攝影與歷史典故。個人訂位代號、民宿門牌、房東電話與確認信連結均已加密隱藏，輸入家族密碼即可開啟檢視。</p>
     </div>
 
     <div class="span-12 verdict-strip">
@@ -1515,18 +1583,18 @@ tbody td.strong {
     <div id="day2" class="day-block" data-day="day2">
       <div class="day-meta">
         <div class="day-date">DAY 2 · 2027/02/11（週四・建國紀念日）</div>
-        <h3 class="day-title">倉敷美觀地區慢遊 × 常春藤廣場 × 三井 Outlet</h3>
-        <p class="day-note">注意：本日為日本國定假日，建議 09:00 出發搶停近入口平面車位。若遇寒風，午後直接轉入相鄰的 Outlet 與 Ario 室內空間。</p>
+        <h3 class="day-title">倉敷美觀地區慢遊 × 阿智神社求御守 × 三井 Outlet</h3>
+        <p class="day-note">注意：本日為日本國定假日，建議 09:00 出發搶停近入口平面車位。阿智神社位於鶴形山頂且有約 182 階石階，建議採「分組行動」：長輩與寶寶於山下平地喝茶休息，年輕家人上山求御守，午後全員轉往 Outlet 與 Ario 室內空間。</p>
         <div class="day-badges">
           <span class="badge">累積車程約 65 分</span>
-          <span class="badge warm">石板平路・跳過阿智神社階梯</span>
+          <span class="badge warm">山下平地休息・分組上山求御守</span>
         </div>
       </div>
       <div class="day-schedule">
         <ul class="slot-list">
           <li>
             <span class="slot-time">09:30</span><span class="slot-head">倉敷美觀地區運河散策 &amp; 倉敷常春藤廣場</span>
-            <p class="slot-desc">民宿出發約 25–30 分鐘，停放 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市營中央停車場</a> 或阿知 3 丁目停車場。沿 <a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">倉敷美觀地區</a> 平坦石板路漫步，跳過需爬階梯的阿智神社，可至 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所</a> 歇腳或體驗倉敷川遊船，並順道散步至緊鄰的紅磚廣場「倉敷常春藤廣場」。</p>
+            <p class="slot-desc">民宿出發約 25–30 分鐘，停放 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市營中央停車場</a> 或阿知 3 丁目停車場。沿 <a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">倉敷美觀地區</a> 平坦石板路漫步，可至 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所</a> 歇腳或體驗倉敷川遊船，並順道散步至緊鄰的紅磚廣場「倉敷常春藤廣場」。</p>
             <div class="spot-history-inline">
               <div class="spot-thumb" data-lightbox data-caption="倉敷常春藤廣場（Kurashiki Ivy Square）紅磚建築實景（來源：岡山縣官方觀光指南）">
                 <img src="https://place.matcha-jp.com/resize/1280x2000/2024/02/16-15-31-21-10071f1fd5a4e52dfe9821e249a57c6b8ee4.webp?w=656" alt="倉敷常春藤廣場紅磚建築實景" loading="lazy" referrerpolicy="no-referrer">
@@ -1540,6 +1608,57 @@ tbody td.strong {
                   <button type="button" class="copy-btn" data-copy="086-422-0542">複製倉敷館電話</button>
                 </div>
               </div>
+            </div>
+          </li>
+          <li>
+            <span class="slot-time">10:45</span><span class="slot-head">阿智神社（鶴形山）參拜與購買特色御守（分組行動）</span>
+            <p class="slot-desc"><strong>三代同遊分工建議：</strong>上山參道需爬約 182 階石階（米壽坂、還曆坂、除厄坂），且山頂車道極窄僅容單車身通行（車位僅約 15 格），<strong>切勿開 VOXY 休旅車上山</strong>。建議由兩位 60 歲長輩與 10 個月寶寶留在山下運河旁咖啡廳或 <a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所</a> 吹暖氣歇腳；1–2 位年輕家人從東側參道步行上山參拜並至授與所（<strong>09:00–17:00</strong>）挑選特色御守，來回約 30–40 分鐘即可下山會合。</p>
+            <div class="spot-history-inline">
+              <div class="spot-thumb" data-lightbox data-caption="阿智神社拜殿與境內實景（來源：阿智神社官網）">
+                <img src="https://achi.or.jp/wp-content/uploads/160512-110356.jpg" alt="阿智神社拜殿實景" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div>
+                <div class="spot-history-label">歷史導覽｜倉敷總鎮守・1594 年遷座鶴形山・主祭宗像三女神</div>
+                <p class="spot-history-text">古時倉敷為淺海「阿知潟」，因渡來人阿知使主一族開墾而得名。1594 年自近鄰寺院遷座妙見宮至鶴形山頂、1620 年造營社殿，1869 年神佛分離定名「阿智神社」，主祭庇佑交通航海安全與技藝美貌的宗像三女神；本殿檜皮葺屋頂於 2024 年 3 月完成約 30 年一度修繕，境內並有 300–500 年古藤「阿知之藤」。</p>
+                <div class="spot-meta-row">
+                  <span>社務所電話：<strong class="mono">086-425-4898</strong></span>
+                  <button type="button" class="copy-btn" data-copy="086-425-4898">複製神社電話</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="omamori-grid" aria-label="阿智神社特色御守推薦">
+              <article class="omamori-item">
+                <div class="omamori-thumb" data-lightbox data-caption="阿智神社超人氣「花纏守（はなまきまもり）」（來源：阿智神社官網）">
+                  <img src="https://achi.or.jp/wp-content/uploads/f59cda778db6e47e58a332bb39227d4f-1-575x380.jpg" alt="阿智神社花纏守蕾絲手環御守" loading="lazy" referrerpolicy="no-referrer">
+                </div>
+                <div class="omamori-body">
+                  <div class="omamori-name">花纏守（はなまきまもり）</div>
+                  <p class="omamori-desc">與岡山蕾絲公司聯名、以「阿知之藤」藤蔓為靈感的手環式蕾絲御守，可戴於手腕或繫於包包。除常態 3 色（こひ、あかねさす、ふじなみ），<strong>2 月正好販售冬季限定色（12–2 月）「よごと（賀詞）」</strong>！</p>
+                </div>
+              </article>
+              <article class="omamori-item">
+                <div class="omamori-thumb" data-lightbox data-caption="阿智神社「童守（わらべまもり）」（來源：阿智神社官網）">
+                  <img src="https://achi.or.jp/wp-content/uploads/0b7be2f5bdcfa9767b787f05dda919c1-575x380.jpg" alt="阿智神社童守兒童健康御守" loading="lazy" referrerpolicy="no-referrer">
+                </div>
+                <div class="omamori-body">
+                  <div class="omamori-name">童守（わらべまもり）</div>
+                  <p class="omamori-desc">神社限定授與品，繡有御神木阿知之藤花紋，專為祈願孩童健康平安成長而設計，最適合帶回家給 10 個月寶寶做旅行紀念。</p>
+                </div>
+              </article>
+              <article class="omamori-item">
+                <div class="omamori-thumb" data-lightbox data-caption="阿智神社「星海守（ほしみまもり）」（來源：阿智神社官網）">
+                  <img src="https://achi.or.jp/wp-content/uploads/e7c324bad3da8834db15e77b63c112ef-575x380.jpg" alt="阿智神社星海守" loading="lazy" referrerpolicy="no-referrer">
+                </div>
+                <div class="omamori-body">
+                  <div class="omamori-name">星海守・長輩平安御守</div>
+                  <p class="omamori-desc">「星海守」以獵戶座三星與海洋呈現主祭神宗像三女神的交通安全與旅途守護；現場亦另有祈求健康長壽的「病気平癒守」與「厄除南天弓守」可替 60 歲長輩挑選。</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="omamori-warn">
+              <strong>台灣入境檢疫提醒：</strong>阿智神社另有售「阿知の藤実守」，官方明確標註內含真實紫藤種子（real wisteria seeds）。因台灣植物檢疫規定嚴禁攜帶植物種子入境，請避免購買該款種子御守，改選購上方蕾絲或織布御守即可安心帶回。
             </div>
           </li>
           <li>
@@ -1752,7 +1871,7 @@ tbody td.strong {
           <div class="heritage-era">1642 年天領 · 1979 年重要傳統建造物群保存地區</div>
           <h3 class="heritage-title">倉敷美觀地區</h3>
           <p class="heritage-desc">江戶時代寛永 19 年（1642 年）成為幕府直轄「天領」並設倉敷代官所，憑藉倉敷川舟運繁榮為米糧棉布樞紐。沿岸白壁土藏、黑瓦町家與柳樹倒影保留完整，1930 年企業家大原孫三郎更在此創設日本首座私立西洋美術館「大原美術館」。</p>
-          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>運河兩岸全區平地石板路好推車；跳過需登階梯的阿智神社，善用倉敷市觀光休憩所（<span class="mono">086-425-6039</span>）休息、換尿布或租借輪椅。</div>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>運河兩岸全區平地石板路好推車；前往上方阿智神社需登約 182 階石階，建議長輩與寶寶在山下倉敷市觀光休憩所（<span class="mono">086-425-6039</span>）或運河咖啡廳休息，由年輕人分組上山求御守。</div>
         </div>
       </article>
 
@@ -1766,6 +1885,19 @@ tbody td.strong {
           <h3 class="heritage-title">倉敷常春藤廣場（Kurashiki Ivy Square）</h3>
           <p class="heritage-desc">原址為江戶幕府倉敷代官所，1889 年（明治 22 年）由倉敷紡績所（今 Kurabo）改建為日本初期的近代棉紡織廠房。當年為調節紡織室內的溫濕度而在紅磚牆種植大量常春藤，如今成為融合住宿、陶藝工坊與庭院餐廳的文化複合廣場。</p>
           <div class="heritage-access"><strong>長輩／寶寶動線：</strong>緊鄰美觀地區運河東側，中庭紅磚大道開闊平坦且設有室內休憩空間與無障礙廁所，寒風起時可迅速入內避風。</div>
+        </div>
+      </article>
+
+      <article class="heritage-card">
+        <div class="heritage-card-media" data-lightbox data-caption="阿智神社拜殿與鶴形山境內（來源：阿智神社官網）">
+          <img src="https://achi.or.jp/wp-content/uploads/160512-110356.jpg" alt="阿智神社拜殿實景" loading="lazy" referrerpolicy="no-referrer">
+          <span class="heritage-day-tag">Day 2 · 倉敷市鶴形山</span>
+        </div>
+        <div class="heritage-card-body">
+          <div class="heritage-era">1594 年遷座鶴形山 · 倉敷總鎮守 · 2024 完成檜皮葺修繕</div>
+          <h3 class="heritage-title">阿智神社（花纏守・童守）</h3>
+          <p class="heritage-desc">遠古因渡來人阿知使主開墾「阿知潟」得名，1594 年自近鄰寺院遷座妙見宮至鶴形山頂，1869 年定名阿智神社，主祭守護交通與藝能的宗像三女神。境內古藤「阿知之藤」樹齡 300–500 年；超人氣蕾絲手環御守「花纏守」每年 12–2 月推出冬季限定色「よごと（賀詞）」，另有「童守」與「星海守」。</p>
+          <div class="heritage-access"><strong>長輩／寶寶動線：</strong>山道窄不建議開車上山，參道需爬約 182 階石階（無推車／輪椅無障礙設施）；授與所開放 09:00–17:00（<span class="mono">086-425-4898</span>），建議年輕成員分組上山購買御守後下山會合。</div>
         </div>
       </article>
 
@@ -1980,7 +2112,7 @@ tbody td.strong {
       <li><span class="masked-chip is-locked" data-secret-text="tiger_source_label" data-masked-text="台灣虎航行程確認單 ••••••">台灣虎航行程確認單 ••••••</span>：<span class="secret-link-slot is-locked" data-secret-href="tiger_url" data-secret-text="gmail_flight_label" data-masked-text="🔒 Gmail 航班確認信（解鎖後開啟）">🔒 Gmail 航班確認信（解鎖後開啟）</span></li>
       <li><span class="masked-chip is-locked" data-secret-text="airbnb_source_label" data-masked-text="Airbnb 住宿確認單 •••••••••• 與房東入住指引">Airbnb 住宿確認單 •••••••••• 與房東入住指引</span>：<span class="secret-link-slot is-locked" data-secret-href="airbnb_url" data-secret-text="airbnb_booking_link_label" data-masked-text="🔒 訂房確認信">🔒 訂房確認信</span>｜<span class="secret-link-slot is-locked" data-secret-href="airbnb_msg_url" data-secret-text="airbnb_msg_link_label" data-masked-text="🔒 房東訊息">🔒 房東訊息</span>｜<span class="secret-link-slot is-locked" data-secret-href="guest_form_url" data-secret-text="guest_form_short" data-masked-text="🔒 房客名冊表單">🔒 房客名冊表單</span></li>
       <li><span class="masked-chip is-locked" data-secret-text="toyota_source_label" data-masked-text="TOYOTA 租車預約確認單 •••••••••••">TOYOTA 租車預約確認單 •••••••••••</span>：<span class="secret-link-slot is-locked" data-secret-href="toyota_url" data-secret-text="gmail_car_label" data-masked-text="🔒 Gmail 租車確認信（解鎖後開啟）">🔒 Gmail 租車確認信（解鎖後開啟）</span>｜<a href="https://rent.toyota.co.jp/zh-tw/" target="_blank" rel="noopener noreferrer">TOYOTA Rent a Car 官網</a></li>
-      <li>倉敷美觀地區與觀光設施：<a href="https://www.okayama-japan.jp/en/spot/10736" target="_blank" rel="noopener noreferrer">倉敷美觀地區官方介紹</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10808" target="_blank" rel="noopener noreferrer">倉敷常春藤廣場</a>｜<a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">Kurashiki Sightseeing Official</a>｜<a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所資訊</a>｜<a href="https://www.okayama-kanko.jp/spot/10319" target="_blank" rel="noopener noreferrer">MITSUI OUTLET PARK 倉敷（岡山觀光WEB）</a>｜<a href="https://mitsui-shopping-park.com/tw/mop/kurashiki/info/child.html" target="_blank" rel="noopener noreferrer">三井 Outlet 倉敷親子設施</a></li>
+      <li>倉敷美觀地區與觀光設施：<a href="https://www.okayama-japan.jp/en/spot/10736" target="_blank" rel="noopener noreferrer">倉敷美觀地區官方介紹</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10808" target="_blank" rel="noopener noreferrer">倉敷常春藤廣場</a>｜<a href="https://achi.or.jp/" target="_blank" rel="noopener noreferrer">阿智神社官網</a>｜<a href="https://achi.or.jp/juyohin" target="_blank" rel="noopener noreferrer">阿智神社授與品（花纏守・童守・星海守）</a>｜<a href="https://www.kurashiki-tabi.jp/for/en/bikan.html" target="_blank" rel="noopener noreferrer">Kurashiki Sightseeing Official</a>｜<a href="https://www.okayama-japan.jp/en/spot/10804" target="_blank" rel="noopener noreferrer">倉敷市觀光休憩所資訊</a>｜<a href="https://www.okayama-kanko.jp/spot/10319" target="_blank" rel="noopener noreferrer">MITSUI OUTLET PARK 倉敷（岡山觀光WEB）</a>｜<a href="https://mitsui-shopping-park.com/tw/mop/kurashiki/info/child.html" target="_blank" rel="noopener noreferrer">三井 Outlet 倉敷親子設施</a></li>
       <li>岡山市區與吉備路景點：<a href="https://okayama-korakuen.jp/section/english/" target="_blank" rel="noopener noreferrer">岡山後樂園官網</a>｜<a href="https://okayama-castle.jp/guide-en/" target="_blank" rel="noopener noreferrer">岡山城官網</a>｜<a href="https://www.okayama-japan.jp/en/spot/13481" target="_blank" rel="noopener noreferrer">岡山城官方介紹</a>｜<a href="https://tw.aeonmall.global/mall/okayama" target="_blank" rel="noopener noreferrer">永旺夢樂城岡山</a>｜<a href="https://www.noumaru.jp/taiken.html" target="_blank" rel="noopener noreferrer">農マル園芸 吉備路農園草莓採果</a>｜<a href="https://www.okayama-kanko.jp/spot/10754" target="_blank" rel="noopener noreferrer">備中國分寺（岡山觀光WEB）</a>｜<a href="https://www.okayama-japan.jp/en/spot/10761" target="_blank" rel="noopener noreferrer">鷲羽山展望台</a></li>
       <li>順路神社資訊：<a href="https://www.kibitsuhiko.or.jp/" target="_blank" rel="noopener noreferrer">吉備津彥神社官網</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10623" target="_blank" rel="noopener noreferrer">吉備津彥神社觀光介紹</a>｜<a href="https://www.okayama-jinjya.or.jp/" target="_blank" rel="noopener noreferrer">岡山神社官網</a>｜<a href="https://www.okayama-japan.jp/tw/spot/10627" target="_blank" rel="noopener noreferrer">岡山神社觀光介紹</a></li>
       <li>氣候參考：<a href="https://weatherspark.com/m/143255/2/Average-Weather-in-February-in-Okayama-Japan" target="_blank" rel="noopener noreferrer">WeatherSpark — Okayama February Weather</a></li>
